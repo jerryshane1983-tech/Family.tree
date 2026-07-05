@@ -1,0 +1,70 @@
+Network Analysis of Sanderson Family Tree:
+------------------------------------------
+Total People (Nodes): 42
+Total Relationships (Edges): 30
+
+Ancestral Roots (No parents listed):
+ - Randall Ray Sanderson (@I10@)
+ - Donnie 'Judge' Hogan (@I11@)
+ - Jennifer Beyer (@I12@)
+ - Stephanie VanCuren (@I13@)
+ - Judy M. Hacker (@I14@)
+ - R.D. Powell (@I15@)
+ - Gary Ray Powell (@I16@)
+ - Carl Robert Powell (@I17@)
+ - Jerry 'Hunk' Powell (@I18@)
+ - Thomas William 'Tommy' Powell (@I19@)
+ - Garlene Corbell (@I20@)
+ - Garland Thomas 'Bo Bo' Powell (@I4@)
+ - William Henry Marshall (@I8@)
+ - Otilla Mae 'Tillie' Hall Beene (@I7@)
+ - Eddys Cornelia Talley (@I9@)
+ - James Milton Sanderson (@I50@)
+ - Mary Elizabeth 'Mollie' Riley Sanderson (@I51@)
+ - Nora B. Fellows Sanderson (@I53@)
+ - Sylvia Marie Sanderson (@I55@)
+
+Descendant Leaves (No children listed):
+ - Jerry Shane Sanderson (@I1@)
+ - Randall Ray Sanderson (@I10@)
+ - Donnie 'Judge' Hogan (@I11@)
+ - Jennifer Beyer (@I12@)
+ - Stephanie VanCuren (@I13@)
+ ... And 22 more.
+
+Longest Lineage Path (5 generations):
+ 1. James Milton Sanderson
+ 2. Darwin W. 'Happy' Sanderson
+ 3. Freddie Ray Sanderson Sr.
+ 4. Freddie Ray Sanderson Jr.
+ 5. Jerry Shane Sanderson
+
+Sibling Group Detection:
+ - Children of Judy M. Hacker: Mary Hacker, Rachel Hacker, Billydon Hacker, Lisa Hacker
+ - Children of Gary Ray Powell: Danny Powell, Kathy Powell, James Powell
+ - Children of Thomas William 'Tommy' Powell: Tommie Ray Powell, Cody Powell, Bodey Powell
+ - Children of William Henry Marshall & Eddys Cornelia Talley: Luella Mae Marshall, Joseph Marshall, Ida Bell Marshall, William Henry Marshall Jr., Robert Lee Marshall, Jessie Charles Marshall, Pearl Edith Marshall
+ - Children of James Milton Sanderson & Mary Elizabeth 'Mollie' Riley Sanderson: Fred Ray Sanderson, Darwin W. 'Happy' Sanderson
+ - Children of Pearl Anne 'Mossie' Powell Sanderson & Freddie Ray Sanderson Jr.: Randall Ray Sanderson, Donnie 'Judge' Hogan, Jennifer Beyer, Stephanie VanCuren, Jerry Shane Sanderson
+ - Children of Garland Thomas 'Bo Bo' Powell & Pearl Edith Marshall: Judy M. Hacker, R.D. Powell, Gary Ray Powell, Carl Robert Powell, Jerry 'Hunk' Powell, Thomas William 'Tommy' Powell, Garlene Corbell, Pearl Anne 'Mossie' Powell Sanderson
+
+Most Connected Individuals (Degree Centrality):
+ - William Henry Marshall: 0.171
+ - Judy M. Hacker: 0.098
+ - Pearl Anne 'Mossie' Powell Sanderson: 0.073
+
+Recent Updates (Nipp Branch):
+ - Identified Raddie Nadine Nipp's married name as Raddie Nadine Goode.
+ - Added her spouse A.J. Goode (1934-2014) to the tree.
+ - Identified and added their children: C.J. Goode, Duffy Goode, Miles Goode, and James Goode (d. 2018).
+ - Identified and added their 10 grandchildren: James Goode, Brock Goode, Cullen Goode, Dustin Goode (wife Sarah), Cory Goode, Emilee Goode, Olivia Goode, Sahvanna Goode, Haden Goode, and Isabella Goode.
+
+ - Updated Goode grandchildren assignments:
+   * C.J. Goode & Suzanne: James, Brock, Cullen
+   * Duffy Goode: Dustin (wife Sarah), Cory, Emilee
+   * Miles Goode & Jackie: Olivia, Sahvanna, Haden, Isabella
+ - Identified Oleta Pearl Nipp (sister of Raddie Nadine Nipp) connection to the Self family:
+   * Married Raymond Lee Self (1937-2018) on January 28, 1961.
+   * Oleta Pearl (Nipp) Self (1941-2010).
+   * They resided in Leon, Oklahoma and are both buried in Jimtown Cemetery, Love Co, OK.
+   * Raymond Self was an honorary pallbearer for Harold Calvin Montgomery (husband of Oleta and Raddie's sister, Lorene Nipp).

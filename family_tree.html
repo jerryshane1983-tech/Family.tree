@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Tree Trace</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 20px; background-color: #f8f9fa; }
+        .node circle { fill: #fff; stroke: #4285f4; stroke-width: 3px; }
+        .node text { font-size: 14px; font-weight: bold; fill: #111; }
+        .link { fill: none; stroke: #666; stroke-width: 2.5px; opacity: 1; }
+        .target circle { stroke: #ea4335; fill: #fce8e6; }
+        #tree-container { width: 100%; height: 90vh; background: white; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); overflow: auto;}
+    </style>
+</head>
+<body>
+    <h2>Family Tree Trace: <span id="target-name"></span></h2>
+    <div id="tree-container"></div>
+    
+    <script>
+        const treeData = {"name": "Ancestors of Jessie Pearl Powell", "children": [{"name": "Robert Powell (1845-?)", "isTarget": false, "id": "@I61@", "children": [{"name": "L. Otto Oliver Powell (1872-1938)", "isTarget": false, "id": "@I60@", "children": [{"name": "Elva May Powell (1910-1988)", "isTarget": false, "id": "@I200@"}, {"name": "Johnie Vernon Powell (1914-1973)", "isTarget": false, "id": "@I201@"}, {"name": "Otto Lee Powell (?-?)", "isTarget": false, "id": "@I202@"}, {"name": "Augustus Earl Powell (1908-1908)", "isTarget": false, "id": "@I203@"}, {"name": "Carl Healdton Powell (?-?)", "isTarget": false, "id": "@I204@"}, {"name": "Nathan Powell (?-?)", "isTarget": false, "id": "@I205@"}, {"name": "Lathan Powell (?-?)", "isTarget": false, "id": "@I206@"}, {"name": "Clara Fay Powell (?-?)", "isTarget": false, "id": "@I207@"}, {"name": "Fannie Marie Powell (?-?)", "isTarget": false, "id": "@I208@"}, {"name": "Floyd Willis Powell (?-?)", "isTarget": false, "id": "@I209@"}, {"name": "Robert Lloyd Powell (?-?)", "isTarget": false, "id": "@I210@"}, {"name": "Emma Lucy Powell (?-?)", "isTarget": false, "id": "@I211@"}, {"name": "Garland Thomas 'Bo Bo' Powell (1928-2001)", "isTarget": false, "id": "@I4@", "children": [{"name": "Judy (Powell) Hacker (1953-2021)", "isTarget": false, "id": "@I14@"}, {"name": "R.D. Powell (?-?)", "isTarget": false, "id": "@I15@"}, {"name": "Gary Ray Powell (?-?)", "isTarget": false, "id": "@I16@"}, {"name": "Carl Robert Powell (?-?)", "isTarget": false, "id": "@I17@"}, {"name": "Jerry 'Hunk' Powell (?-1994)", "isTarget": false, "id": "@I18@"}, {"name": "Thomas William 'Tommy' Powell (?-1998)", "isTarget": false, "id": "@I19@"}, {"name": "Garlene (Powell) Corbell (?-2001)", "isTarget": false, "id": "@I20@"}, {"name": "Pearl Anne 'Mossie' Powell Sanderson (1960-2009)", "isTarget": false, "id": "@I2@", "children": [{"name": "Randall Ray Sanderson (?-?)", "isTarget": false, "id": "@I10@"}, {"name": "Donnie 'Judge' Hogan (?-?)", "isTarget": false, "id": "@I11@"}, {"name": "Jennifer Beyer (?-?)", "isTarget": false, "id": "@I12@"}, {"name": "Stephanie VanCuren (?-?)", "isTarget": false, "id": "@I13@"}, {"name": "Jerry Shane Sanderson (1983-?)", "isTarget": false, "id": "@I1@"}]}]}, {"name": "Jessie Pearl Powell (1908-1985) [TARGET]", "isTarget": true, "id": "@I70@", "children": [{"name": "Gene Nipp (1944-2022)", "isTarget": false, "id": "@I300@"}, {"name": "Carrol Johnnie 'John' Nipp (1948-2022)", "isTarget": false, "id": "@I301@"}, {"name": "Parlee Delcena Nipp (1926-2002)", "isTarget": false, "id": "@I330@"}, {"name": "Meady Mae Nipp (1927-1999)", "isTarget": false, "id": "@I331@"}, {"name": "Elnora Marie Nipp (1929-2000)", "isTarget": false, "id": "@I360@"}, {"name": "Charles Floyd Nipp (1932-2008)", "isTarget": false, "id": "@I361@"}, {"name": "Clyde Otta Nipp (1934-2019)", "isTarget": false, "id": "@I362@"}, {"name": "Conver Paul Nipp (1943-?)", "isTarget": false, "id": "@I363@"}, {"name": "Carolyn Ann Nipp (?-?)", "isTarget": false, "id": "@I364@"}, {"name": "Lorene (Nipp) Montgomery (?-?)", "isTarget": false, "id": "@I420@", "children": [{"name": "Claud William Nipp Jr. (?-?)", "isTarget": false, "id": "@I430@"}, {"name": "Terry (Nipp) Smith (?-?)", "isTarget": false, "id": "@I431@"}]}, {"name": "Linda Sue (Nipp) Williams (?-?)", "isTarget": false, "id": "@I421@"}, {"name": "Raddie Nadine Nipp (1939-?)", "isTarget": false, "id": "@I422@"}, {"name": "Oleta Pearl Nipp (1941-2010)", "isTarget": false, "id": "@I423@"}, {"name": "Lorene (Nipp) Montgomery (?-?)", "isTarget": false, "id": "@I424@", "children": [{"name": "James Montgomery (?-?)", "isTarget": false, "id": "@I432@"}]}, {"name": "Linda Sue (Nipp) Williams (?-?)", "isTarget": false, "id": "@I425@", "children": [{"name": "Amanda Williams (?-?)", "isTarget": false, "id": "@I433@"}]}, {"name": "Donnie Nipp (?-?)", "isTarget": false, "id": "@I426@"}, {"name": "Curtiss Nipp (?-?)", "isTarget": false, "id": "@I427@", "children": [{"name": "Michael Curtiss Nipp (?-?)", "isTarget": false, "id": "@I434@"}]}]}]}]}, {"name": "Aulmeady Mae Dennis (1892-1968)", "isTarget": false, "id": "@I62@", "children": [{"name": "[Pedigree Collapse: Elva May Powell]", "isTarget": false, "id": "@I200@"}, {"name": "[Pedigree Collapse: Johnie Vernon Powell]", "isTarget": false, "id": "@I201@"}, {"name": "[Pedigree Collapse: Otto Lee Powell]", "isTarget": false, "id": "@I202@"}, {"name": "[Pedigree Collapse: Augustus Earl Powell]", "isTarget": false, "id": "@I203@"}, {"name": "[Pedigree Collapse: Carl Healdton Powell]", "isTarget": false, "id": "@I204@"}, {"name": "[Pedigree Collapse: Nathan Powell]", "isTarget": false, "id": "@I205@"}, {"name": "[Pedigree Collapse: Lathan Powell]", "isTarget": false, "id": "@I206@"}, {"name": "[Pedigree Collapse: Clara Fay Powell]", "isTarget": false, "id": "@I207@"}, {"name": "[Pedigree Collapse: Fannie Marie Powell]", "isTarget": false, "id": "@I208@"}, {"name": "[Pedigree Collapse: Floyd Willis Powell]", "isTarget": false, "id": "@I209@"}, {"name": "[Pedigree Collapse: Robert Lloyd Powell]", "isTarget": false, "id": "@I210@"}, {"name": "[Pedigree Collapse: Emma Lucy Powell]", "isTarget": false, "id": "@I211@"}, {"name": "[Pedigree Collapse: Garland Thomas 'Bo Bo' Powell]", "isTarget": false, "id": "@I4@"}, {"name": "[Pedigree Collapse: Jessie Pearl Powell]", "isTarget": true, "id": "@I70@"}]}]};
+        document.getElementById('target-name').innerText = treeData.name || "Family Tree";
+
+        const container = document.getElementById('tree-container');
+        const width = container.clientWidth;
+        const dx = 28; // Increased vertical spacing for clarity
+        const dy = 280; // Increased horizontal spacing for longer names
+        
+        const root = d3.hierarchy(treeData);
+let i = 0;
+
+        root.x0 = dy / 2;
+        root.y0 = 0;
+        
+        const tree = d3.tree().nodeSize([dx, dy]);
+        const diagonal = d3.linkHorizontal().x(d => d.y).y(d => d.x);
+        
+        const svg = d3.select("#tree-container").append("svg")
+            .attr("width", width)
+            .attr("height", dx)
+            .attr("viewBox", [-dy / 3, -dx, width, dx])
+            .attr("style", "max-width: 100%; height: auto; font-family: sans-serif; user-select: none;");
+            
+        const gLink = svg.append("g")
+            .attr("class", "link");
+            
+        const gNode = svg.append("g")
+            .attr("cursor", "pointer")
+            .attr("pointer-events", "all");
+            
+        function update(source) {
+            const duration = 250;
+            const nodes = root.descendants().reverse();
+            const links = root.links();
+            
+            tree(root);
+            
+            let left = root;
+            let right = root;
+            root.eachBefore(node => {
+                if (node.x < left.x) left = node;
+                if (node.x > right.x) right = node;
+            });
+            
+            const height = right.x - left.x + dx * 2;
+            const transition = svg.transition().duration(duration)
+                .attr("height", height)
+                .attr("viewBox", [-dy / 3, left.x - dx, width, height])
+                .tween("resize", window.ResizeObserver ? null : () => () => svg.dispatch("toggle"));
+                
+            const node = gNode.selectAll("g.node").data(nodes, d => d.id || (d.id = ++i));
+            
+            const nodeEnter = node.enter().append("g")
+                .attr("class", d => "node" + (d.data.isTarget ? " target" : ""))
+                .attr("transform", d => `translate(${source.y0},${source.x0})`)
+                .attr("fill-opacity", 0)
+                .attr("stroke-opacity", 0)
+                .on("click", (event, d) => {
+                    d.children = d.children ? null : d._children;
+                    update(d);
+                });
+                
+            nodeEnter.append("circle")
+                .attr("r", d => d.data.isTarget ? 7 : 5.5)
+                .attr("fill", d => d._children ? "#4285f4" : "#fff");
+                
+            nodeEnter.append("text")
+                .attr("dy", "0.31em")
+                .attr("x", d => d._children ? -10 : 10)
+                .attr("text-anchor", d => d._children ? "end" : "start")
+                .text(d => d.data.name)
+                .clone(true).lower()
+                .attr("stroke-linejoin", "round")
+                .attr("stroke-width", 2)
+                .attr("stroke", "white");
+                
+            const nodeUpdate = node.merge(nodeEnter).transition(transition)
+                .attr("transform", d => `translate(${d.y},${d.x})`)
+                .attr("fill-opacity", 1)
+                .attr("stroke-opacity", 1);
+                
+            nodeUpdate.select("circle")
+                .attr("fill", d => d.data.isTarget ? "#fce8e6" : (d._children ? "#4285f4" : "#fff"));
+                
+            const nodeExit = node.exit().transition(transition).remove()
+                .attr("transform", d => `translate(${source.y},${source.x})`)
+                .attr("fill-opacity", 0)
+                .attr("stroke-opacity", 0);
+                
+            const link = gLink.selectAll("path").data(links, d => d.target.id);
+            
+            const linkEnter = link.enter().append("path")
+                .attr("d", d => {
+                    const o = {x: source.x0, y: source.y0};
+                    return diagonal({source: o, target: o});
+                });
+                
+            link.merge(linkEnter).transition(transition)
+                .attr("d", diagonal);
+                
+            link.exit().transition(transition).remove()
+                .attr("d", d => {
+                    const o = {x: source.x, y: source.y};
+                    return diagonal({source: o, target: o});
+                });
+                
+            root.eachBefore(d => {
+                d.x0 = d.x;
+                d.y0 = d.y;
+            });
+        }
+        
+        root.x0 = dy / 2;
+        root.y0 = 0;
+        root.descendants().forEach((d, i) => {
+            d.id = i;
+            d._children = d.children;
+        });
+        update(root);
+    </script>
+</body>
+</html>
