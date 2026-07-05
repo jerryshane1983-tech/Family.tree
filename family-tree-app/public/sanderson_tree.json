@@ -7,19 +7,20 @@
       "birth_date": "1983-08-31",
       "birth_place": "Ardmore, OK",
       "parents": [
-        "@I3@",
-        "@I2@"
+        "@I2@",
+        "@I3@"
       ],
       "siblings": [
+        "@I12@",
         "@I10@",
         "@I11@",
-        "@I12@",
         "@I13@"
       ],
       "children": [
         "@I700@",
         "@I701@"
-      ]
+      ],
+      "note": "KRAKEN INTEL: Jerry Shane Sanderson passed away in Wilson, Oklahoma. His obituary is not listed in the retrieved data. The most recent relevant entry is for Jerry W..."
     },
     {
       "id": "@I10@",
@@ -29,9 +30,10 @@
         "Bear"
       ],
       "parents": [
-        "@I3@",
-        "@I2@"
+        "@I2@",
+        "@I3@"
       ],
+      "birth_year": "1982",
       "note": "Brother. Part of the Choctaw Bear Clan branch.",
       "children": [
         "@I807@"
@@ -45,13 +47,14 @@
         "Judge"
       ],
       "parents": [
-        "@I3@",
-        "@I2@"
+        "@I2@",
+        "@I3@"
       ],
+      "birth_year": "1979",
       "note": "Brother. Part of the Choctaw Bear Clan branch.",
       "children": [
-        "@I805@",
-        "@I806@"
+        "@I806@",
+        "@I805@"
       ]
     },
     {
@@ -59,13 +62,13 @@
       "name": "Jennifer Beyer",
       "gender": "F",
       "parents": [
-        "@I3@",
-        "@I2@"
+        "@I2@",
+        "@I3@"
       ],
-      "note": "Sister",
+      "note": "Sister| AGE OSINT: Jennifer Beyer was born on January 16, 1979. She passed away on December 28, 2024. Her age at the ti...",
       "children": [
-        "@I800@",
         "@I801@",
+        "@I800@",
         "@I802@"
       ],
       "spouse": "Jodie Beyer"
@@ -75,10 +78,10 @@
       "name": "Stephanie VanCuren",
       "gender": "F",
       "parents": [
-        "@I3@",
-        "@I2@"
+        "@I2@",
+        "@I3@"
       ],
-      "note": "Sister",
+      "note": "Sister| AGE OSINT: Stephanie VanCuren was born in the 1980s. She is an associate professor at Midland College. Her birt...",
       "children": [
         "@I803@",
         "@I804@"
@@ -111,13 +114,13 @@
         "@I5@"
       ],
       "siblings": [
-        "@I14@",
-        "@I15@",
-        "@I16@",
-        "@I17@",
-        "@I18@",
         "@I19@",
-        "@I20@"
+        "@I14@",
+        "@I18@",
+        "@I15@",
+        "@I20@",
+        "@I16@",
+        "@I17@"
       ]
     },
     {
@@ -131,21 +134,21 @@
         "@I62@"
       ],
       "siblings": [
-        "@I70@",
-        "@I200@",
         "@I201@",
-        "@I202@",
-        "@I203@",
-        "@I204@",
+        "@I210@",
+        "@I209@",
         "@I205@",
-        "@I206@",
         "@I207@",
         "@I208@",
-        "@I209@",
-        "@I210@",
-        "@I211@"
+        "@I203@",
+        "@I70@",
+        "@I206@",
+        "@I200@",
+        "@I211@",
+        "@I204@",
+        "@I202@"
       ],
-      "note": "Had 14 siblings and 8 children (documented in @I2@ siblings list)."
+      "note": "Had 14 siblings and 8 children (documented in @I2@ siblings list).| AGE OSINT: Garland Thomas 'Bo Bo' Powell was born on July 12, 1923, in Ringling, Oklahoma. He is Judy Hacker's ..."
     },
     {
       "id": "@I5@",
@@ -154,8 +157,8 @@
       "birth_date": "1928-09-25",
       "death_date": "1991-05-14",
       "parents": [
-        "@I8@",
-        "@I9@"
+        "@I9@",
+        "@I8@"
       ],
       "note": "Matrilineal source of the Choctaw Bear Clan identity."
     },
@@ -178,8 +181,8 @@
       "birth_year": 1902,
       "death_year": 1996,
       "parents": [
-        "@I90@",
-        "@I91@"
+        "@I91@",
+        "@I90@"
       ]
     },
     {
@@ -223,9 +226,10 @@
       "id": "@I62@",
       "name": "Aulmeady Mae Dennis",
       "gender": "F",
+      "spouse": "L. Otto Oliver Powell",
       "birth_year": 1892,
       "death_year": 1968,
-      "note": "Mother of 14 children with L. Otto Oliver Powell."
+      "note": "Mother of 14 children with L. Otto Oliver Powell. | KRAKEN INTEL: Aulmeady Mae Dennis had an obituary in Wilson, Oklahoma. The obituary was published by a local funeral home. No specific details are available beyond ..."
     },
     {
       "id": "@I61@",
@@ -255,28 +259,24 @@
       ],
       "spouse": "@I71@",
       "children": [
-        "@I300@",
-        "@I301@",
-        "@I330@",
-        "@I331@",
-        "@I360@",
-        "@I361@",
-        "@I362@",
-        "@I363@",
         "@I364@",
-        "@I420@",
         "@I421@",
-        "@I422@",
         "@I423@",
+        "@I422@",
+        "@I427@",
+        "@I300@",
+        "@I362@",
         "@I424@",
         "@I425@",
+        "@I330@",
+        "@I301@",
         "@I426@",
-        "@I427@",
-        "@I365@",
-        "@I366@",
-        "@I367@",
         "@I368@",
-        "@I369@"
+        "@I331@",
+        "@I363@",
+        "@I360@",
+        "@I420@",
+        "@I361@"
       ],
       "note": "Married Conver William 'Con' Nipp. Mother of 17 children. Great-aunt to user."
     },
@@ -287,14 +287,14 @@
       "birth_year": 1899,
       "death_year": 1978,
       "children": [
-        "@I420@",
         "@I421@",
-        "@I422@",
         "@I423@",
+        "@I422@",
+        "@I427@",
         "@I424@",
         "@I425@",
         "@I426@",
-        "@I427@"
+        "@I420@"
       ]
     },
     {
@@ -304,13 +304,13 @@
       "birth_year": 1929,
       "death_year": 2000,
       "parents": [
-        "@I70@",
-        "@I71@"
+        "@I71@",
+        "@I70@"
       ],
       "spouse": "Robert Lee 'Bob' Phillips",
       "children": [
-        "@I370@",
         "@I371@",
+        "@I370@",
         "@I372@"
       ]
     },
@@ -341,14 +341,14 @@
       "birth_year": 1932,
       "death_year": 2008,
       "parents": [
-        "@I70@",
-        "@I71@"
+        "@I71@",
+        "@I70@"
       ],
       "children": [
         "@I380@",
+        "@I383@",
         "@I381@",
-        "@I382@",
-        "@I383@"
+        "@I382@"
       ],
       "note": "Lived in Decatur, Nebraska."
     },
@@ -383,13 +383,13 @@
       "birth_year": 1934,
       "death_year": 2019,
       "parents": [
-        "@I70@",
-        "@I71@"
+        "@I71@",
+        "@I70@"
       ],
       "spouse": "Beth Staples",
       "children": [
-        "@I390@",
-        "@I391@"
+        "@I391@",
+        "@I390@"
       ],
       "note": "Lived in Simon, OK."
     },
@@ -412,8 +412,8 @@
       "gender": "M",
       "birth_year": 1943,
       "parents": [
-        "@I70@",
-        "@I71@"
+        "@I71@",
+        "@I70@"
       ],
       "spouse": "Wanda Christine Chandler",
       "children": [
@@ -433,8 +433,8 @@
       "name": "Carolyn Ann Nipp",
       "gender": "F",
       "parents": [
-        "@I70@",
-        "@I71@"
+        "@I71@",
+        "@I70@"
       ],
       "spouse": "Bobby Mason Westmoreland",
       "children": [
@@ -469,17 +469,17 @@
       "birth_year": 1926,
       "death_year": 2002,
       "parents": [
-        "@I70@",
-        "@I71@"
+        "@I71@",
+        "@I70@"
       ],
       "spouse": "George William 'Willie' Russell",
       "children": [
-        "@I340@",
         "@I341@",
-        "@I342@",
         "@I343@",
-        "@I344@",
-        "@I345@"
+        "@I340@",
+        "@I345@",
+        "@I342@",
+        "@I344@"
       ]
     },
     {
@@ -529,19 +529,19 @@
       "birth_year": 1927,
       "death_year": 1999,
       "parents": [
-        "@I70@",
-        "@I71@"
+        "@I71@",
+        "@I70@"
       ],
       "spouse": "Melvin Eugene 'Smooth' Vernon",
       "children": [
-        "@I350@",
         "@I351@",
-        "@I352@",
         "@I353@",
-        "@I354@",
-        "@I355@",
         "@I356@",
-        "@I357@"
+        "@I355@",
+        "@I357@",
+        "@I352@",
+        "@I354@",
+        "@I350@"
       ]
     },
     {
@@ -603,12 +603,12 @@
       "birth_year": 1944,
       "death_year": 2022,
       "parents": [
-        "@I70@",
-        "@I71@"
+        "@I71@",
+        "@I70@"
       ],
       "children": [
-        "@I310@",
-        "@I311@"
+        "@I311@",
+        "@I310@"
       ]
     },
     {
@@ -630,8 +630,8 @@
       "birth_year": 1948,
       "death_year": 2022,
       "parents": [
-        "@I70@",
-        "@I71@"
+        "@I71@",
+        "@I70@"
       ],
       "spouse": "Marsha Ann Hockersmith",
       "children": [
@@ -702,7 +702,15 @@
       "parents": [
         "@I60@",
         "@I62@"
-      ]
+      ],
+      "spouse": "Shelby Jean Persilver",
+      "children": [
+        "@I821@",
+        "@I822@",
+        "@I823@",
+        "@I824@"
+      ],
+      "note": "Often referred to as Helton Powell. Worked in the oilfields. Predeceased wife in 1992."
     },
     {
       "id": "@I205@",
@@ -786,19 +794,19 @@
       "birth_date": "1945-11-09",
       "death_date": "1992-10-09",
       "parents": [
-        "@I100@",
-        "@I101@"
+        "@I101@",
+        "@I100@"
       ],
       "siblings": [
         "@I104@",
+        "@I112@",
         "@I105@",
         "@I106@",
-        "@I107@",
-        "@I108@",
+        "@I111@",
         "@I109@",
         "@I110@",
-        "@I111@",
-        "@I112@"
+        "@I107@",
+        "@I108@"
       ],
       "note": "Buried at Antioch Cemetery, Garvin Co, OK. Mother of Freddie Jr."
     },
@@ -816,8 +824,8 @@
       "birth_date": "1914-05-02",
       "death_date": "2007-05-11",
       "parents": [
-        "@I102@",
-        "@I103@"
+        "@I103@",
+        "@I102@"
       ]
     },
     {
@@ -841,14 +849,14 @@
       "birth_year": 1938,
       "death_year": 2016,
       "parents": [
-        "@I100@",
-        "@I101@"
+        "@I101@",
+        "@I100@"
       ],
       "spouse": "Anna Lois Simer",
       "children": [
-        "@I120@",
+        "@I122@",
         "@I121@",
-        "@I122@"
+        "@I120@"
       ]
     },
     {
@@ -876,15 +884,15 @@
       "birth_year": 1940,
       "death_year": 2023,
       "parents": [
-        "@I100@",
-        "@I101@"
+        "@I101@",
+        "@I100@"
       ],
       "spouse": "Clifford Kelly",
       "children": [
-        "@I130@",
         "@I131@",
-        "@I132@",
-        "@I133@"
+        "@I133@",
+        "@I130@",
+        "@I132@"
       ]
     },
     {
@@ -917,14 +925,14 @@
       "gender": "F",
       "death_year": 2016,
       "parents": [
-        "@I100@",
-        "@I101@"
+        "@I101@",
+        "@I100@"
       ],
       "spouse": "Charles Odell Hefner",
       "children": [
+        "@I162@",
         "@I160@",
-        "@I161@",
-        "@I162@"
+        "@I161@"
       ]
     },
     {
@@ -952,14 +960,14 @@
       "name": "Patty Hall Goostree",
       "gender": "F",
       "parents": [
-        "@I100@",
-        "@I101@"
+        "@I101@",
+        "@I100@"
       ],
       "spouse": "Bud Goostree",
       "children": [
+        "@I172@",
         "@I170@",
-        "@I171@",
-        "@I172@"
+        "@I171@"
       ],
       "note": "Resides in Moore/Oklahoma City area."
     },
@@ -988,8 +996,8 @@
       "birth_year": 1955,
       "death_year": 2022,
       "parents": [
-        "@I100@",
-        "@I101@"
+        "@I101@",
+        "@I100@"
       ],
       "children": [
         "@I140@",
@@ -1013,8 +1021,8 @@
       "name": "Bob Hall",
       "gender": "M",
       "parents": [
-        "@I100@",
-        "@I101@"
+        "@I101@",
+        "@I100@"
       ],
       "note": "Resides in Nashville, TN."
     },
@@ -1023,8 +1031,8 @@
       "name": "Buck Hall (Robert Darrell Hall Jr.)",
       "gender": "M",
       "parents": [
-        "@I100@",
-        "@I101@"
+        "@I101@",
+        "@I100@"
       ],
       "spouse": "Karen Hall",
       "children": [
@@ -1050,8 +1058,8 @@
       "name": "Ike Hall (Isaac Hall)",
       "gender": "M",
       "parents": [
-        "@I100@",
-        "@I101@"
+        "@I101@",
+        "@I100@"
       ],
       "spouse": "Judy Hall",
       "note": "Resided in McAlester, OK. Deceased 2016-2022."
@@ -1061,17 +1069,17 @@
       "name": "Johnnie Hall Clark",
       "gender": "F",
       "parents": [
-        "@I100@",
-        "@I101@"
+        "@I101@",
+        "@I100@"
       ],
       "spouse": "Garland Ray Clark",
       "children": [
-        "@I150@",
-        "@I151@",
         "@I152@",
-        "@I153@",
+        "@I151@",
+        "@I155@",
+        "@I150@",
         "@I154@",
-        "@I155@"
+        "@I153@"
       ],
       "note": "Resides in Dibble, OK."
     },
@@ -1120,8 +1128,8 @@
       "birth_year": 1891,
       "death_year": 1975,
       "parents": [
-        "@I50@",
-        "@I51@"
+        "@I51@",
+        "@I50@"
       ]
     },
     {
@@ -1158,16 +1166,16 @@
       "spouse": "Billy Floyd Hacker",
       "children": [
         "@I21@",
-        "@I22@",
+        "@I24@",
         "@I23@",
-        "@I24@"
+        "@I22@"
       ]
     },
     {
       "id": "@I21@",
       "name": "Mary Hacker",
       "gender": "F",
-      "note": "1st Cousin. Partner: James Fisher. Resides in Wilson, OK.",
+      "note": "1st Cousin. Partners: James Fisher, Mr. Russell. Resides in Wilson, OK.",
       "children": [
         "@I506@",
         "@I507@"
@@ -1189,21 +1197,21 @@
       "gender": "F",
       "note": "1st Cousin. Partner: Jason Canales. Resides in Wilson, OK.",
       "children": [
+        "@I510@",
         "@I502@",
         "@I503@",
-        "@I509@",
-        "@I510@"
+        "@I509@"
       ]
     },
     {
       "id": "@I23@",
       "name": "Billy Don Hacker",
       "gender": "M",
-      "note": "1st Cousin. Partner: Melanie Slawson. Resides in Wilson, OK.",
+      "note": "1st Cousin. Partners: Summer Salsbury Sanders, Melanie Slawson. Resides in Wilson, OK.",
       "children": [
+        "@I508@",
         "@I504@",
-        "@I505@",
-        "@I508@"
+        "@I505@"
       ]
     },
     {
@@ -1218,7 +1226,7 @@
       "children": [
         "@I220@"
       ],
-      "note": "Resides in Wilson, OK."
+      "note": "Resides in Wilson, OK. | KRAKEN INTEL: R.D. Powell, a relative, passed away in 2024. His obituary mentions his family and the funeral arrangements. He was survived by his wife Shirley and o..."
     },
     {
       "id": "@I220@",
@@ -1257,7 +1265,7 @@
       "id": "@I33@",
       "name": "James Powell",
       "gender": "M",
-      "note": "1st Cousin. Wife: Christina. Children: Rahnessa, Bailey, Austin. Resides in Wilson, OK."
+      "note": "1st Cousin. Wife: Christina. Children: Rahnessa, Bailey, Austin (born ~2022). Resides in Wilson, OK."
     },
     {
       "id": "@I17@",
@@ -1270,8 +1278,8 @@
       "spouse": "Janette",
       "children": [
         "@I230@",
-        "@I231@",
-        "@I232@"
+        "@I232@",
+        "@I231@"
       ],
       "note": "Resides in Wilson, OK."
     },
@@ -1291,7 +1299,7 @@
       "id": "@I232@",
       "name": "Carrie Dawn Powell",
       "gender": "F",
-      "note": "1st Cousin."
+      "note": "1st Cousin. | KRAKEN INTEL: Carrie Dawn Powell, born in 1964, passed away in 2025. Her obituary was published by Mitchell Family Funeral Home. She is survived by her partner and ..."
     },
     {
       "id": "@I18@",
@@ -1323,21 +1331,28 @@
       ],
       "spouse": "Ramona Elaine (Pemberton) Thoroughman",
       "children": [
-        "@I250@",
         "@I251@",
+        "@I250@",
         "@I252@"
-      ]
+      ],
+      "note": "KRAKEN INTEL: Thomas William \"Tommy\" Powell died on April 5, 2025, in Prague, Oklahoma. He was born on June 5, 1938, in Checotah, Oklahoma. His funeral services wer..."
     },
     {
       "id": "@I250@",
       "name": "Tommie Ray Powell",
       "gender": "M",
+      "parents": [
+        "@I19@"
+      ],
       "note": "1st Cousin."
     },
     {
       "id": "@I251@",
       "name": "Cody Cowan Powell",
       "gender": "M",
+      "parents": [
+        "@I19@"
+      ],
       "birth_year": 1984,
       "death_year": 2024,
       "note": "1st Cousin. Born July 20, 1984; died Aug 16, 2024."
@@ -1346,6 +1361,9 @@
       "id": "@I252@",
       "name": "Bodey Powell",
       "gender": "M",
+      "parents": [
+        "@I19@"
+      ],
       "note": "1st Cousin. Predeceased his brother Cody (died before 2024)."
     },
     {
@@ -1374,13 +1392,14 @@
       "birth_year": 1930,
       "death_year": 1990,
       "parents": [
-        "@I70@",
-        "@I71@"
+        "@I71@",
+        "@I70@"
       ],
       "children": [
         "@I810@",
         "@I811@"
-      ]
+      ],
+      "note": "Buried at Simon Cemetery, Love Co, OK."
     },
     {
       "id": "@I421@",
@@ -1389,9 +1408,10 @@
       "birth_year": 1936,
       "death_year": 1936,
       "parents": [
-        "@I70@",
-        "@I71@"
-      ]
+        "@I71@",
+        "@I70@"
+      ],
+      "note": "Died in infancy."
     },
     {
       "id": "@I422@",
@@ -1399,15 +1419,15 @@
       "gender": "F",
       "birth_year": 1939,
       "parents": [
-        "@I70@",
-        "@I71@"
+        "@I71@",
+        "@I70@"
       ],
       "spouse": "@I815@",
       "children": [
+        "@I440@",
         "@I441@",
-        "@I442@",
         "@I443@",
-        "@I440@"
+        "@I442@"
       ]
     },
     {
@@ -1417,74 +1437,68 @@
       "birth_year": 1941,
       "death_year": 2010,
       "parents": [
-        "@I70@",
-        "@I71@"
+        "@I71@",
+        "@I70@"
       ],
-      "spouse": "Raymond Lee Self"
+      "spouse": "Raymond Lee Self",
+      "note": "Buried at Jimtown Cemetery, Love Co, OK."
     },
     {
       "id": "@I424@",
       "name": "Lorene (Nipp) Montgomery",
       "gender": "F",
       "parents": [
-        "@I70@",
-        "@I71@"
+        "@I71@",
+        "@I70@"
       ],
       "children": [
-        "@I430@",
-        "@I431@",
         "@I432@",
+        "@I431@",
+        "@I812@",
         "@I433@",
-        "@I812@"
-      ]
+        "@I430@"
+      ],
+      "spouse": "Carroll Wayne Montgomery",
+      "note": "Resided in Marietta, OK."
     },
     {
       "id": "@I425@",
       "name": "Linda Sue (Nipp) Williams",
       "gender": "F",
       "parents": [
-        "@I70@",
-        "@I71@"
+        "@I71@",
+        "@I70@"
       ],
       "children": [
         "@I813@"
-      ]
+      ],
+      "spouse": "Warren Williams",
+      "note": "Resided in Rubottom, OK."
     },
     {
       "id": "@I426@",
       "name": "Donnie Nipp",
       "gender": "M",
       "parents": [
-        "@I70@",
-        "@I71@"
-      ]
+        "@I71@",
+        "@I70@"
+      ],
+      "spouse": "Jeannie",
+      "note": "Resided in Wilson, OK."
     },
     {
       "id": "@I427@",
       "name": "Curtiss Nipp",
       "gender": "M",
       "parents": [
-        "@I70@",
-        "@I71@"
+        "@I71@",
+        "@I70@"
       ],
       "children": [
         "@I434@"
-      ]
-    },
-    {
-      "id": "@I808@",
-      "name": "Lorene (Nipp) Montgomery",
-      "gender": "F",
-      "parents": [
-        "@I70@",
-        "@I71@"
       ],
-      "spouse": "Carroll Wayne Montgomery",
-      "children": [
-        "@I430@",
-        "@I431@"
-      ],
-      "note": "Resided in Marietta, OK."
+      "spouse": "Brenda",
+      "note": "Resided in Simon, OK."
     },
     {
       "id": "@I430@",
@@ -1521,17 +1535,6 @@
       "parents": [
         "@I424@"
       ]
-    },
-    {
-      "id": "@I809@",
-      "name": "Linda Sue (Nipp) Williams",
-      "gender": "F",
-      "parents": [
-        "@I70@",
-        "@I71@"
-      ],
-      "spouse": "Warren Williams",
-      "note": "Resided in Rubottom, OK."
     },
     {
       "id": "@I810@",
@@ -1579,42 +1582,6 @@
       "note": "Unverified OSINT extraction"
     },
     {
-      "id": "@I365@",
-      "name": "Claud William Nipp",
-      "gender": "M",
-      "birth_year": 1930,
-      "death_year": 1990,
-      "parents": [
-        "@I70@",
-        "@I71@"
-      ],
-      "note": "Buried at Simon Cemetery, Love Co, OK."
-    },
-    {
-      "id": "@I366@",
-      "name": "Oleta Pearl (Nipp) Self",
-      "gender": "F",
-      "birth_year": 1941,
-      "death_year": 2010,
-      "parents": [
-        "@I70@",
-        "@I71@"
-      ],
-      "spouse": "Raymond Lee Self",
-      "note": "Buried at Jimtown Cemetery, Love Co, OK."
-    },
-    {
-      "id": "@I367@",
-      "name": "Donnie Nipp",
-      "gender": "M",
-      "parents": [
-        "@I70@",
-        "@I71@"
-      ],
-      "spouse": "Jeannie",
-      "note": "Resided in Wilson, OK."
-    },
-    {
       "id": "@I440@",
       "name": "James Goode",
       "gender": "M",
@@ -1633,8 +1600,8 @@
         "@I422@"
       ],
       "children": [
-        "@I451@",
         "@I452@",
+        "@I451@",
         "@I440@"
       ]
     },
@@ -1655,29 +1622,6 @@
       "parents": [
         "@I422@"
       ]
-    },
-    {
-      "id": "@I369@",
-      "name": "Curtiss Nipp",
-      "gender": "M",
-      "parents": [
-        "@I70@",
-        "@I71@"
-      ],
-      "spouse": "Brenda",
-      "note": "Resided in Simon, OK."
-    },
-    {
-      "id": "@I814@",
-      "name": "Ida Dorleen Nipp",
-      "gender": "F",
-      "birth_year": 1936,
-      "death_year": 1936,
-      "parents": [
-        "@I70@",
-        "@I71@"
-      ],
-      "note": "Died in infancy."
     },
     {
       "id": "@I500@",
@@ -1735,16 +1679,16 @@
       "parents": [
         "@I23@"
       ],
-      "note": "1st Cousin 1R (Son of Billy Don Hacker)."
+      "note": "1st Cousin 1R. Son of Billy Don Hacker and Summer Salsbury Sanders."
     },
     {
       "id": "@I506@",
-      "name": "Summer (Hacker/Fisher)",
+      "name": "Summer Russell",
       "gender": "F",
       "parents": [
         "@I21@"
       ],
-      "note": "1st Cousin 1R (Likely daughter of Mary Hacker).",
+      "note": "1st Cousin 1R. Daughter of Mary Hacker and a Mr. Russell (not James Fisher).",
       "children": [
         "@I601@"
       ]
@@ -1770,8 +1714,8 @@
       ],
       "note": "1st Cousin 1R (Daughter of Billy Don Hacker).",
       "children": [
-        "@I605@",
-        "@I606@"
+        "@I606@",
+        "@I605@"
       ]
     },
     {
@@ -2024,6 +1968,286 @@
       "parents": [
         "@I443@"
       ]
+    },
+    {
+      "id": "@I820@",
+      "name": "Shelby Jean Persilver",
+      "gender": "F",
+      "birth_year": 1938,
+      "death_year": 2015,
+      "spouse": "Carl Healdton Powell",
+      "children": [
+        "@I821@",
+        "@I822@",
+        "@I823@",
+        "@I824@"
+      ],
+      "note": "Married on April 12, 1956. Buried at Simon Cemetery, Love Co, OK."
+    },
+    {
+      "id": "@I821@",
+      "name": "Carl Lee 'Tiny' Powell",
+      "gender": "M",
+      "birth_year": 1959,
+      "death_year": 2020,
+      "parents": [
+        "@I204@",
+        "@I820@"
+      ],
+      "spouse": "Carol Garrett",
+      "children": [
+        "@I829@",
+        "@I830@"
+      ],
+      "note": "CB Handle: 'Tiny'. Truck driver. Resided in Madill, OK. Buried at Powell Cemetery."
+    },
+    {
+      "id": "@I822@",
+      "name": "Pat Wayne Powell",
+      "gender": "M",
+      "birth_year": 1960,
+      "death_year": 2021,
+      "parents": [
+        "@I204@",
+        "@I820@"
+      ],
+      "spouse": "Michelle Tupin",
+      "children": [
+        "@I825@",
+        "@I826@",
+        "@I827@",
+        "@I828@"
+      ],
+      "note": "Married January 3, 1992. Oilfield/roustabout worker. Resided in Wilson, OK. Buried at Bomar Point Cemetery."
+    },
+    {
+      "id": "@I823@",
+      "name": "Lena Powell",
+      "gender": "F",
+      "parents": [
+        "@I204@",
+        "@I820@"
+      ],
+      "spouse": "John Edwards",
+      "children": [
+        "@I831@"
+      ],
+      "note": "Resided in Wilson/Healdton, OK."
+    },
+    {
+      "id": "@I824@",
+      "name": "Mike Helton Powell",
+      "gender": "M",
+      "parents": [
+        "@I204@",
+        "@I820@"
+      ],
+      "spouse": "Tina Powell",
+      "note": "Resided in Healdton, OK."
+    },
+    {
+      "id": "@I840@",
+      "name": "Carol Garrett",
+      "gender": "F",
+      "spouse": "Carl Lee 'Tiny' Powell",
+      "children": [
+        "@I829@",
+        "@I830@"
+      ]
+    },
+    {
+      "id": "@I841@",
+      "name": "Michelle Tupin",
+      "gender": "F",
+      "spouse": "Pat Wayne Powell",
+      "children": [
+        "@I825@",
+        "@I826@",
+        "@I827@",
+        "@I828@"
+      ]
+    },
+    {
+      "id": "@I842@",
+      "name": "John Edwards",
+      "gender": "M",
+      "spouse": "Lena Powell",
+      "children": [
+        "@I831@"
+      ]
+    },
+    {
+      "id": "@I843@",
+      "name": "Tina Powell",
+      "gender": "F",
+      "spouse": "Mike Helton Powell",
+      "note": "Predeceased Shelby Jean Powell (before 2015)."
+    },
+    {
+      "id": "@I825@",
+      "name": "Roger Powell",
+      "gender": "M",
+      "parents": [
+        "@I822@",
+        "@I841@"
+      ],
+      "spouse": "Britney",
+      "children": [
+        "@I837@",
+        "@I838@",
+        "@I839@"
+      ],
+      "note": "2nd Cousin."
+    },
+    {
+      "id": "@I826@",
+      "name": "Dillon Powell",
+      "gender": "M",
+      "parents": [
+        "@I822@",
+        "@I841@"
+      ],
+      "note": "2nd Cousin."
+    },
+    {
+      "id": "@I827@",
+      "name": "Patrick Powell",
+      "gender": "M",
+      "parents": [
+        "@I822@",
+        "@I841@"
+      ],
+      "spouse": "Kara Hurst",
+      "note": "2nd Cousin."
+    },
+    {
+      "id": "@I828@",
+      "name": "Infant Daughter Powell",
+      "gender": "F",
+      "parents": [
+        "@I822@",
+        "@I841@"
+      ],
+      "note": "Died in infancy."
+    },
+    {
+      "id": "@I829@",
+      "name": "Craig Garrett",
+      "gender": "M",
+      "parents": [
+        "@I821@",
+        "@I840@"
+      ],
+      "spouse": "Mhyka",
+      "children": [
+        "@I832@",
+        "@I833@",
+        "@I834@",
+        "@I835@",
+        "@I836@"
+      ],
+      "note": "2nd Cousin. Resides in Madill, OK."
+    },
+    {
+      "id": "@I830@",
+      "name": "Cory Garrett",
+      "gender": "M",
+      "parents": [
+        "@I821@",
+        "@I840@"
+      ],
+      "spouse": "Sam",
+      "note": "2nd Cousin. Resides in Madill, OK."
+    },
+    {
+      "id": "@I831@",
+      "name": "Daniel Edwards",
+      "gender": "M",
+      "parents": [
+        "@I823@",
+        "@I842@"
+      ],
+      "note": "2nd Cousin."
+    },
+    {
+      "id": "@I832@",
+      "name": "Skylar Garrett",
+      "gender": "F",
+      "parents": [
+        "@I829@",
+        "Mhyka"
+      ],
+      "note": "Great-grandchild of Carl Helton Powell."
+    },
+    {
+      "id": "@I833@",
+      "name": "Jaxxon Garrett",
+      "gender": "M",
+      "parents": [
+        "@I829@",
+        "Mhyka"
+      ],
+      "note": "Great-grandchild of Carl Helton Powell."
+    },
+    {
+      "id": "@I834@",
+      "name": "Rhyder Garrett",
+      "gender": "M",
+      "parents": [
+        "@I829@",
+        "Mhyka"
+      ],
+      "note": "Great-grandchild of Carl Helton Powell."
+    },
+    {
+      "id": "@I835@",
+      "name": "Emorie Garrett",
+      "gender": "F",
+      "parents": [
+        "@I829@",
+        "Mhyka"
+      ],
+      "note": "Great-grandchild of Carl Helton Powell."
+    },
+    {
+      "id": "@I836@",
+      "name": "Carson Garrett",
+      "gender": "M",
+      "parents": [
+        "@I829@",
+        "Mhyka"
+      ],
+      "note": "Great-grandchild of Carl Helton Powell."
+    },
+    {
+      "id": "@I837@",
+      "name": "Hayden Powell",
+      "gender": "M",
+      "parents": [
+        "@I825@",
+        "Britney"
+      ],
+      "note": "Great-grandchild of Carl Helton Powell."
+    },
+    {
+      "id": "@I838@",
+      "name": "Allysin Powell",
+      "gender": "F",
+      "parents": [
+        "@I825@",
+        "Britney"
+      ],
+      "note": "Great-grandchild of Carl Helton Powell."
+    },
+    {
+      "id": "@I839@",
+      "name": "Kynnedi Powell",
+      "gender": "F",
+      "parents": [
+        "@I825@",
+        "Britney"
+      ],
+      "note": "Great-grandchild of Carl Helton Powell."
     }
   ]
 }
