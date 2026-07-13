@@ -207,7 +207,15 @@ export default function App() {
     
     if (person.note) details += `Notes: ${person.note}\n`;
 
-    const prompt = `You are an expert genealogist. Write a beautiful, engaging historical biography for ${person.name} based ONLY on this raw family tree data. Format it with HTML paragraphs (<p>). Data:\n${details}`;
+    const prompt = `You are an expert genealogist and storyteller. Write a unique, highly personalized, and engaging biographical narrative for ${person.name}. 
+    Instead of just listing facts, weave their details into a story.
+    - If you have their birth/death years, briefly mention the historical era they lived through in the United States.
+    - Highlight their role in the family (e.g., as a child of their parents, or raising their own children).
+    - If there are 'Notes' provided, feature those details prominently as they are the most personal aspects of their life.
+    - Vary your writing style so no two biographies sound exactly the same.
+    Format the response beautifully with HTML paragraphs (<p>). 
+    
+    Raw Data:\n${details}`;
 
     try {
       // NOTE: Using fetch to directly hit REST API to avoid browser compatibility issues with the SDK
