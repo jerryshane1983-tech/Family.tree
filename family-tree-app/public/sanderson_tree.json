@@ -615,13 +615,24 @@
       "id": "@I310@",
       "name": "Andy Nipp",
       "gender": "M",
-      "note": "Preceded Gene in death. Children: Andrew Nipp, Andrea (Nipp) Hartwell."
+      "note": "Passed away April 13, 2020. Worked in telephone towers and oil field service. Enjoyed 4-wheelers and mechanics.",
+      "children": [
+        "@I310_1@",
+        "@I310_2@"
+      ],
+      "death_year": 2020,
+      "birth_year": 1967
     },
     {
       "id": "@I311@",
       "name": "Quintin Nipp",
       "gender": "M",
-      "note": "Resided in Wilson, OK (2022)."
+      "note": "Resided in Wilson, OK (2022).",
+      "children": [
+        "@I311_1@",
+        "@I311_2@",
+        "@I311_3@"
+      ]
     },
     {
       "id": "@I301@",
@@ -1424,10 +1435,10 @@
       ],
       "spouse": "@I815@",
       "children": [
-        "@I440@",
         "@I441@",
         "@I443@",
-        "@I442@"
+        "@I442@",
+        "@I440@"
       ]
     },
     {
@@ -1441,7 +1452,13 @@
         "@I70@"
       ],
       "spouse": "Raymond Lee Self",
-      "note": "Buried at Jimtown Cemetery, Love Co, OK."
+      "note": "Buried at Jimtown Cemetery, Love Co, OK. May have other unknown children besides Scott.",
+      "children": [
+        "@I423_1@",
+        "@I423_2@",
+        "@I423_3@",
+        "@I423_4@"
+      ]
     },
     {
       "id": "@I424@",
@@ -1495,7 +1512,8 @@
         "@I70@"
       ],
       "children": [
-        "@I434@"
+        "@I436@",
+        "@I900@"
       ],
       "spouse": "Brenda",
       "note": "Resided in Simon, OK."
@@ -1573,21 +1591,11 @@
       "note": "Unverified OSINT extraction"
     },
     {
-      "id": "@I434@",
-      "name": "Michael Curtiss Nipp",
-      "gender": "M",
-      "parents": [
-        "@I427@"
-      ],
-      "note": "Unverified OSINT extraction"
-    },
-    {
       "id": "@I440@",
       "name": "James Goode",
       "gender": "M",
-      "note": "Child of C.J. Goode and Suzanne. 2nd Cousin. Preceded parents in death (1979).",
+      "note": "Child of A.J. Goode and Nadine. Brother of C.J., Duffy, and Miles. Died in a car wreck, preceding parents in death (1979).",
       "parents": [
-        "@I441@",
         "@I422@"
       ]
     },
@@ -1600,10 +1608,11 @@
         "@I422@"
       ],
       "children": [
-        "@I452@",
         "@I451@",
-        "@I440@"
-      ]
+        "@I452@",
+        "@I850@"
+      ],
+      "spouse": "Suzanne"
     },
     {
       "id": "@I442@",
@@ -1612,6 +1621,11 @@
       "note": "2nd Cousin.",
       "parents": [
         "@I422@"
+      ],
+      "children": [
+        "@I454@",
+        "@I453@",
+        "@I455@"
       ]
     },
     {
@@ -1621,6 +1635,13 @@
       "note": "2nd Cousin. Married Jackie.",
       "parents": [
         "@I422@"
+      ],
+      "spouse": "Jackie",
+      "children": [
+        "@I458@",
+        "@I456@",
+        "@I457@",
+        "@I459@"
       ]
     },
     {
@@ -1814,7 +1835,13 @@
       "gender": "M",
       "birth_year": 1937,
       "death_year": 2018,
-      "spouse": "@I423@"
+      "note": "Husband of Oleta Pearl Nipp. May have other unknown children besides Scott.",
+      "children": [
+        "@I423_1@",
+        "@I423_2@",
+        "@I423_3@",
+        "@I423_4@"
+      ]
     },
     {
       "id": "@I800@",
@@ -2248,6 +2275,178 @@
         "Britney"
       ],
       "note": "Great-grandchild of Carl Helton Powell."
+    },
+    {
+      "id": "@I310_1@",
+      "name": "Andrea (Nipp) Hartwell",
+      "gender": "F",
+      "parents": [
+        "@I310@"
+      ],
+      "spouse": "Justin Hartwell"
+    },
+    {
+      "id": "@I310_2@",
+      "name": "Andrew Nipp",
+      "gender": "M",
+      "parents": [
+        "@I310@"
+      ]
+    },
+    {
+      "id": "@I311_1@",
+      "name": "Cheyenne Nipp",
+      "gender": "F",
+      "parents": [
+        "@I311@"
+      ]
+    },
+    {
+      "id": "@I311_2@",
+      "name": "Cassidy Nipp",
+      "gender": "F",
+      "parents": [
+        "@I311@"
+      ]
+    },
+    {
+      "id": "@I311_3@",
+      "name": "Chelsey Nipp",
+      "gender": "F",
+      "parents": [
+        "@I311@"
+      ]
+    },
+    {
+      "id": "@I436@",
+      "name": "Travis Nipp",
+      "gender": "M",
+      "parents": [
+        "@I427@"
+      ],
+      "spouse": "Audrey",
+      "children": [
+        "@I436_1@"
+      ],
+      "note": "Employed as a Security Safety Health and Environmental Supervisor with Exxon Mobil."
+    },
+    {
+      "id": "@I435_1@",
+      "name": "Morgan Nipp",
+      "gender": "F",
+      "parents": [
+        "@I900@"
+      ],
+      "note": "Attended Oklahoma State University (Biochemistry and Molecular Biology)."
+    },
+    {
+      "id": "@I435_2@",
+      "name": "Cannon Nipp",
+      "gender": "M",
+      "parents": [
+        "@I900@"
+      ]
+    },
+    {
+      "id": "@I436_1@",
+      "name": "Addilyn 'Addi' Nipp",
+      "gender": "F",
+      "parents": [
+        "@I436@"
+      ]
+    },
+    {
+      "id": "@I850@",
+      "name": "James Goode",
+      "gender": "M",
+      "parents": [
+        "@I441@"
+      ],
+      "note": "Child of C.J. Goode and Suzanne. Named after his late uncle James."
+    },
+    {
+      "id": "@I423_1@",
+      "name": "Scott Self",
+      "gender": "M",
+      "parents": [
+        "@I423@",
+        "@I435@"
+      ],
+      "children": [
+        "@I423_1_1@",
+        "@I423_1_2@",
+        "@I423_1_3@",
+        "@I423_1_4@"
+      ],
+      "note": " Has other children whose names are currently unknown. Wife identified as Belinda Self via OSINT/User confirmation.",
+      "spouse": "Belinda Self"
+    },
+    {
+      "id": "@I423_1_1@",
+      "name": "Rebekah Susanne \"Suzi\" (Self) Wilkenson",
+      "gender": "F",
+      "parents": [
+        "@I423_1@"
+      ]
+    },
+    {
+      "id": "@I423_1_2@",
+      "name": "Shane Self",
+      "gender": "M",
+      "parents": [
+        "@I423_1@"
+      ]
+    },
+    {
+      "id": "@I423_2@",
+      "name": "Richard Self",
+      "gender": "M",
+      "birth_year": 1962,
+      "parents": [
+        "@I423@",
+        "@I435@"
+      ],
+      "note": "Added via OSINT public directory scan. Relationship deduced by age."
+    },
+    {
+      "id": "@I423_3@",
+      "name": "Radonna Self",
+      "gender": "F",
+      "birth_year": 1964,
+      "parents": [
+        "@I423@",
+        "@I435@"
+      ],
+      "note": "Added via OSINT public directory scan. Relationship deduced by age."
+    },
+    {
+      "id": "@I423_4@",
+      "name": "Raymond Self",
+      "gender": "M",
+      "birth_year": 1966,
+      "parents": [
+        "@I423@",
+        "@I435@"
+      ],
+      "note": "Added via OSINT public directory scan. Relationship deduced by age."
+    },
+    {
+      "id": "@I423_1_3@",
+      "name": "Kayelee Self",
+      "gender": "F",
+      "birth_year": 1999,
+      "parents": [
+        "@I423_1@"
+      ]
+    },
+    {
+      "id": "@I423_1_4@",
+      "name": "Reva Self",
+      "gender": "F",
+      "birth_year": 2003,
+      "parents": [
+        "@I423_1@"
+      ]
     }
   ]
 }

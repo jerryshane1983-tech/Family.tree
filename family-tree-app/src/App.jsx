@@ -1,5 +1,6 @@
 import React, { useState, useMemo, useEffect, Suspense, lazy, useRef } from 'react';
 import gsap from 'gsap';
+import { GoogleGenAI } from '@google/genai';
 import './App.css';
 
 const Tree = lazy(() => import('react-d3-tree'));
@@ -8,7 +9,6 @@ const buildTree = (rootId, personMap, childrenMap, visited = new Set()) => {
   const person = personMap.get(rootId);
   if (!person) return null;
 
-  // Find spouses/co-parents based on the children's parent arrays
   const spouses = new Map();
   const childIds = childrenMap.get(rootId);
   if (childIds && childIds.size > 0) {
@@ -38,11 +38,13 @@ const buildTree = (rootId, personMap, childrenMap, visited = new Set()) => {
   }
 
   const node = {
+    id: person.id,
     name: person.name,
     attributes: {
       dates: dateString,
       gender: person.gender === 'M' ? 'Male' : person.gender === 'F' ? 'Female' : 'Unknown',
-      spouse: spouseNames || null
+      spouse: spouseNames || null,
+      raw: person
     },
     children: []
   };
@@ -67,12 +69,10 @@ const buildTree = (rootId, personMap, childrenMap, visited = new Set()) => {
   return node;
 };
 
-// Custom React Component for the Node to handle its own GSAP animations
-const GlassNode = ({ nodeDatum, toggleNode }) => {
+const GlassNode = ({ nodeDatum, toggleNode, onGenerateBio }) => {
   const cardRef = useRef(null);
 
   useEffect(() => {
-    // Antigravity Entrance Animation
     gsap.fromTo(cardRef.current, 
       { opacity: 0, scale: 0.8, y: 30, rotationX: 15 },
       { opacity: 1, scale: 1, y: 0, rotationX: 0, duration: 0.8, ease: "power3.out", delay: 0.05 }
@@ -91,7 +91,7 @@ const GlassNode = ({ nodeDatum, toggleNode }) => {
   const isFemale = nodeDatum.attributes?.gender === 'Female';
 
   return (
-    <foreignObject x="-125" y="-75" width="250" height="150" style={{ overflow: 'visible' }}>
+    <foreignObject x="-125" y="-90" width="250" height="180" style={{ overflow: 'visible' }}>
       <div 
         ref={cardRef}
         className={`glass-card ${isMale ? 'glass-male' : isFemale ? 'glass-female' : 'glass-unknown'}`}
@@ -111,6 +111,12 @@ const GlassNode = ({ nodeDatum, toggleNode }) => {
               &amp; {nodeDatum.attributes.spouse}
             </p>
           )}
+          <button 
+            className="glass-bio-btn" 
+            onClick={(e) => { e.stopPropagation(); onGenerateBio(nodeDatum); }}
+          >
+            ✨ AI Biography
+          </button>
         </div>
         
         {nodeDatum.children && (
@@ -127,23 +133,30 @@ export default function App() {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedRootId, setSelectedRootId] = useState(null);
   const [treeData, setTreeData] = useState(null);
+  const [apiKey, setApiKey] = useState(localStorage.getItem('gemini_api_key') || '');
+  
+  // Modal State
+  const [bioModal, setBioModal] = useState({ open: false, person: null, text: '', loading: false });
 
   useEffect(() => {
-    fetch('/sanderson_tree.json')
+    fetch(`${import.meta.env.BASE_URL}sanderson_tree.json?t=${Date.now()}`)
       .then(res => res.json())
       .then(data => {
         setTreeData(data);
       });
   }, []);
 
+  const handleApiKeyChange = (e) => {
+    setApiKey(e.target.value);
+    localStorage.setItem('gemini_api_key', e.target.value);
+  };
+
   const { personMap, allPeople, childrenMap } = useMemo(() => {
     const map = new Map();
     const cMap = new Map();
-    
     if (!treeData) return { personMap: map, allPeople: [], childrenMap: cMap };
     
     treeData.people.forEach(p => map.set(p.id, p));
-    
     treeData.people.forEach(p => {
       if (p.children) {
         if (!cMap.has(p.id)) cMap.set(p.id, new Set());
@@ -156,7 +169,6 @@ export default function App() {
         });
       }
     });
-
     return { personMap: map, allPeople: treeData.people, childrenMap: cMap };
   }, [treeData]);
 
@@ -170,9 +182,65 @@ export default function App() {
     return buildTree(selectedRootId, personMap, childrenMap);
   }, [selectedRootId, personMap, childrenMap]);
 
+  // Handle Biography Generation
+  const generateBiography = async (nodeDatum) => {
+    if (!apiKey) {
+      alert("Please enter your Gemini API Key in the top right corner first!");
+      return;
+    }
+
+    setBioModal({ open: true, person: nodeDatum.name, text: '', loading: true });
+    
+    const person = nodeDatum.attributes.raw;
+    let details = `Name: ${person.name}\n`;
+    if (person.birth_date) details += `Birth: ${person.birth_date}\n`;
+    if (person.birth_place) details += `Birth Place: ${person.birth_place}\n`;
+    
+    const parents = (person.parents || []).map(id => personMap.get(id)?.name).filter(Boolean);
+    if (parents.length) details += `Parents: ${parents.join(', ')}\n`;
+    
+    const siblings = (person.siblings || []).map(id => personMap.get(id)?.name).filter(Boolean);
+    if (siblings.length) details += `Siblings: ${siblings.join(', ')}\n`;
+    
+    const children = (person.children || []).map(id => personMap.get(id)?.name).filter(Boolean);
+    if (children.length) details += `Children: ${children.join(', ')}\n`;
+    
+    if (person.note) details += `Notes: ${person.note}\n`;
+
+    const prompt = `You are an expert genealogist. Write a beautiful, engaging historical biography for ${person.name} based ONLY on this raw family tree data. Format it with HTML paragraphs (<p>). Data:\n${details}`;
+
+    try {
+      // NOTE: Using fetch to directly hit REST API to avoid browser compatibility issues with the SDK
+      const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=${apiKey}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          contents: [{ parts: [{ text: prompt }] }]
+        })
+      });
+      
+      const result = await response.json();
+      if (result.error) throw new Error(result.error.message);
+      
+      const text = result.candidates[0].content.parts[0].text;
+      setBioModal({ open: true, person: nodeDatum.name, text: text, loading: false });
+    } catch (error) {
+      console.error(error);
+      setBioModal({ open: true, person: nodeDatum.name, text: `<p style="color:red">Error: ${error.message}</p>`, loading: false });
+    }
+  };
+
   return (
     <div className="app-container">
-      {/* Background elements for Antigravity depth */}
+      <div className="api-key-input">
+        <input 
+          type="password" 
+          placeholder="Enter Gemini API Key..." 
+          value={apiKey} 
+          onChange={handleApiKeyChange}
+        />
+      </div>
+
       <div className="ambient-orb orb-1"></div>
       <div className="ambient-orb orb-2"></div>
 
@@ -221,14 +289,29 @@ export default function App() {
               data={treeDataFormatted} 
               orientation="vertical" 
               pathFunc="step" 
-              nodeSize={{ x: 300, y: 220 }}
-              renderCustomNodeElement={(rd3tProps) => <GlassNode {...rd3tProps} />}
+              nodeSize={{ x: 300, y: 240 }}
+              renderCustomNodeElement={(rd3tProps) => <GlassNode {...rd3tProps} onGenerateBio={generateBiography} />}
               translate={{ x: window.innerWidth / 2, y: 150 }}
               separation={{ siblings: 1.2, nonSiblings: 1.5 }}
               transitionDuration={600}
             />
           </Suspense>
         </main>
+      )}
+
+      {/* Biography Modal */}
+      {bioModal.open && (
+        <div className="bio-modal-overlay" onClick={() => setBioModal({ ...bioModal, open: false })}>
+          <div className="bio-modal-content" onClick={e => e.stopPropagation()}>
+            <button className="bio-close-btn" onClick={() => setBioModal({ ...bioModal, open: false })}>×</button>
+            <h2>{bioModal.person}</h2>
+            {bioModal.loading ? (
+              <div className="loading-state">Gemini 3 is writing the biography...</div>
+            ) : (
+              <div dangerouslySetInnerHTML={{ __html: bioModal.text }} />
+            )}
+          </div>
+        </div>
       )}
     </div>
   );

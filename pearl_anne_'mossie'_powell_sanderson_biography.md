@@ -1,0 +1,9 @@
+# Biography: Pearl Anne 'Mossie' Powell Sanderson
+
+The story of Pearl Anne Powell began in the sweltering late summer of 1960, in the small town of Ringling, Oklahoma. On the twenty-fourth of August, she arrived as a namesake to her mother, Pearl Edith Marshall, and a daughter to Garland Thomas Powell—a man known to the community and his loved ones by the sturdy, familiar name of "Bo Bo."
+
+From the moment of her birth, Pearl Anne, who would come to be affectionately known as "Mossie," was part of a grand and bustling narrative. She was born into a household defined by its vibrant energy and the constant hum of a large, growing family. As one of eight children, Mossie’s world was shaped by the unique camaraderie of seven siblings who filled their home with life and character.
+
+She grew up alongside her brothers: Thomas William, known to the family as "Tommy"; Jerry, who carried the spirited nickname "Hunk"; R.D.; Gary Ray; and Carl Robert. Her sisters, Judy and Garlene, provided the feminine balance to a house often dominated by the boisterousness of five brothers. Together, the Powell children formed a tight-knit circle under the guidance of Bo Bo and Pearl Edith.
+
+In the landscape of south-central Oklahoma, amidst the legacy of the Marshall and Powell lines, Pearl Anne "Mossie" Powell Sanderson took her place. Her early years were a tapestry woven from the shared secrets of sisters, the protective watch of brothers, and the deep roots of a family that valued heritage and the enduring bonds of kinship. Her life remains a testament to that August day in Ringling, where a large family grew one soul larger, and a little girl named Mossie began her journey.
