@@ -181,7 +181,8 @@
                 "@I_ROBERT_LEE_MARSHALL@",
                 "@I_JESSIE_CHARLES_MARSHALL@",
                 "@I_KENNETH_MARSHALL@",
-                "@I_GLORIA_MARSHALL@"
+                "@I_GLORIA_MARSHALL@",
+                "@I_LUCILLE_VIRGINIA_MARSHALL@"
             ]
         },
         {
@@ -202,7 +203,8 @@
                 "@I_ROBERT_LEE_MARSHALL@",
                 "@I_JESSIE_CHARLES_MARSHALL@",
                 "@I_KENNETH_MARSHALL@",
-                "@I_GLORIA_MARSHALL@"
+                "@I_GLORIA_MARSHALL@",
+                "@I_LUCILLE_VIRGINIA_MARSHALL@"
             ]
         },
         {
@@ -3614,6 +3616,65 @@
             "parents": [
                 "@I8@",
                 "@I9@"
+            ]
+        },
+        {
+            "id": "@I_LUCILLE_VIRGINIA_MARSHALL@",
+            "name": "Lucille Virginia Marshall",
+            "gender": "F",
+            "birth_year": 1936,
+            "death_year": 2014,
+            "parents": [
+                "@I8@",
+                "@I9@"
+            ],
+            "spouses": [
+                "@I_MR_ROBERTS@"
+            ],
+            "children": [
+                "@I_KATHIE_ROBERTS@",
+                "@I_KERRY_ROBERTS@",
+                "@I_KRIS_ROBERTS@"
+            ]
+        },
+        {
+            "id": "@I_MR_ROBERTS@",
+            "name": "(Unknown) Roberts",
+            "gender": "M",
+            "spouses": [
+                "@I_LUCILLE_VIRGINIA_MARSHALL@"
+            ],
+            "children": [
+                "@I_KATHIE_ROBERTS@",
+                "@I_KERRY_ROBERTS@",
+                "@I_KRIS_ROBERTS@"
+            ]
+        },
+        {
+            "id": "@I_KATHIE_ROBERTS@",
+            "name": "Kathie Roberts",
+            "gender": "F",
+            "parents": [
+                "@I_LUCILLE_VIRGINIA_MARSHALL@",
+                "@I_MR_ROBERTS@"
+            ]
+        },
+        {
+            "id": "@I_KERRY_ROBERTS@",
+            "name": "Kerry Roberts",
+            "gender": "M",
+            "parents": [
+                "@I_LUCILLE_VIRGINIA_MARSHALL@",
+                "@I_MR_ROBERTS@"
+            ]
+        },
+        {
+            "id": "@I_KRIS_ROBERTS@",
+            "name": "Kris Roberts",
+            "gender": "M",
+            "parents": [
+                "@I_LUCILLE_VIRGINIA_MARSHALL@",
+                "@I_MR_ROBERTS@"
             ]
         }
     ]
