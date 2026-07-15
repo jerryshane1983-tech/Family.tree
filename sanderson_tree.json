@@ -3417,6 +3417,15 @@
             "parents": [
                 "@I8@",
                 "@I9@"
+            ],
+            "spouses": [
+                "@I_BILLY_GLENN_CAMPLAIN@"
+            ],
+            "children": [
+                "@I_LINDA_CAMPLAIN@",
+                "@I_BILL_CAMPLAIN@",
+                "@I_BRENDA_CAMPLAIN@",
+                "@I_RICKY_CAMPLAIN@"
             ]
         },
         {
@@ -3522,6 +3531,56 @@
             "parents": [
                 "@I_WILLIAM_HENRY_MARSHALL_JR@",
                 "@I_WILMA_SUE_TADLOCK@"
+            ]
+        },
+        {
+            "id": "@I_BILLY_GLENN_CAMPLAIN@",
+            "name": "Billy Glenn Camplain",
+            "gender": "M",
+            "spouses": [
+                "@I_IDA_BELL_MARSHALL@"
+            ],
+            "children": [
+                "@I_LINDA_CAMPLAIN@",
+                "@I_BILL_CAMPLAIN@",
+                "@I_BRENDA_CAMPLAIN@",
+                "@I_RICKY_CAMPLAIN@"
+            ]
+        },
+        {
+            "id": "@I_LINDA_CAMPLAIN@",
+            "name": "Linda Camplain",
+            "gender": "F",
+            "parents": [
+                "@I_IDA_BELL_MARSHALL@",
+                "@I_BILLY_GLENN_CAMPLAIN@"
+            ]
+        },
+        {
+            "id": "@I_BILL_CAMPLAIN@",
+            "name": "Bill Camplain",
+            "gender": "M",
+            "parents": [
+                "@I_IDA_BELL_MARSHALL@",
+                "@I_BILLY_GLENN_CAMPLAIN@"
+            ]
+        },
+        {
+            "id": "@I_BRENDA_CAMPLAIN@",
+            "name": "Brenda Camplain",
+            "gender": "F",
+            "parents": [
+                "@I_IDA_BELL_MARSHALL@",
+                "@I_BILLY_GLENN_CAMPLAIN@"
+            ]
+        },
+        {
+            "id": "@I_RICKY_CAMPLAIN@",
+            "name": "Ricky Camplain",
+            "gender": "M",
+            "parents": [
+                "@I_IDA_BELL_MARSHALL@",
+                "@I_BILLY_GLENN_CAMPLAIN@"
             ]
         }
     ]
