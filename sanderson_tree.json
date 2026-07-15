@@ -179,7 +179,9 @@
                 "@I_IDA_BELL_MARSHALL@",
                 "@I_WILLIAM_HENRY_MARSHALL_JR@",
                 "@I_ROBERT_LEE_MARSHALL@",
-                "@I_JESSIE_CHARLES_MARSHALL@"
+                "@I_JESSIE_CHARLES_MARSHALL@",
+                "@I_KENNETH_MARSHALL@",
+                "@I_GLORIA_MARSHALL@"
             ]
         },
         {
@@ -198,7 +200,9 @@
                 "@I_IDA_BELL_MARSHALL@",
                 "@I_WILLIAM_HENRY_MARSHALL_JR@",
                 "@I_ROBERT_LEE_MARSHALL@",
-                "@I_JESSIE_CHARLES_MARSHALL@"
+                "@I_JESSIE_CHARLES_MARSHALL@",
+                "@I_KENNETH_MARSHALL@",
+                "@I_GLORIA_MARSHALL@"
             ]
         },
         {
@@ -3581,6 +3585,35 @@
             "parents": [
                 "@I_IDA_BELL_MARSHALL@",
                 "@I_BILLY_GLENN_CAMPLAIN@"
+            ]
+        },
+        {
+            "id": "@I_KENNETH_MARSHALL@",
+            "name": "Kenneth Marshall",
+            "gender": "M",
+            "parents": [
+                "@I8@",
+                "@I9@"
+            ],
+            "spouses": [
+                "@I_MARILYNN_MARSHALL@"
+            ]
+        },
+        {
+            "id": "@I_MARILYNN_MARSHALL@",
+            "name": "Marilynn (Unknown)",
+            "gender": "F",
+            "spouses": [
+                "@I_KENNETH_MARSHALL@"
+            ]
+        },
+        {
+            "id": "@I_GLORIA_MARSHALL@",
+            "name": "Gloria Marshall",
+            "gender": "F",
+            "parents": [
+                "@I8@",
+                "@I9@"
             ]
         }
     ]
