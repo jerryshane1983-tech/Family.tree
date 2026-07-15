@@ -219,7 +219,30 @@
             "birth_year": 1872,
             "death_year": 1938,
             "parents": [
-                "@I61@"
+                "@I61@",
+                "@I_ELVIA_JANE_BERRY@"
+            ],
+            "birth": "1 April 1872, Brandenburg, Meade, Kentucky, United States",
+            "death": "6 May 1938, Jefferson, Oklahoma, United States",
+            "burial": "Simon Cemetery, Love, Oklahoma, United States",
+            "spouses": [
+                "@I62@"
+            ],
+            "children": [
+                "@I_AUGUSTUS_EARL_POWELL@",
+                "@I_JESSIE_PEARL_POWELL@",
+                "@I_ELVA_MAY_POWELL@",
+                "@I_OTTO_LEE_POWELL@",
+                "@I_JOHNIE_VERNON_POWELL@",
+                "@I_FANNIE_MARIE_POWELL@",
+                "@I_CLARA_FAY_POWELL@",
+                "@I_FLOYD_WILLIS_POWELL@",
+                "@I_ROBERT_LLOYD_POWELL@",
+                "@I_EMMA_LUCY_POWELL@",
+                "@I_GARLAND_THOMAS_POWELL@",
+                "@I_CARL_HILTON_POWELL@",
+                "@I_LAYTON_POWELL@",
+                "@I_NATHAN_RAY_POWELL@"
             ]
         },
         {
@@ -229,7 +252,23 @@
             "spouse": "L. Otto Oliver Powell",
             "birth_year": 1892,
             "death_year": 1968,
-            "note": "Mother of 14 children with L. Otto Oliver Powell. | KRAKEN INTEL: Aulmeady Mae Dennis had an obituary in Wilson, Oklahoma. The obituary was published by a local funeral home. No specific details are available beyond ..."
+            "note": "Mother of 14 children with L. Otto Oliver Powell. | KRAKEN INTEL: Aulmeady Mae Dennis had an obituary in Wilson, Oklahoma. The obituary was published by a local funeral home. No specific details are available beyond ...",
+            "children": [
+                "@I_AUGUSTUS_EARL_POWELL@",
+                "@I_JESSIE_PEARL_POWELL@",
+                "@I_ELVA_MAY_POWELL@",
+                "@I_OTTO_LEE_POWELL@",
+                "@I_JOHNIE_VERNON_POWELL@",
+                "@I_FANNIE_MARIE_POWELL@",
+                "@I_CLARA_FAY_POWELL@",
+                "@I_FLOYD_WILLIS_POWELL@",
+                "@I_ROBERT_LLOYD_POWELL@",
+                "@I_EMMA_LUCY_POWELL@",
+                "@I_GARLAND_THOMAS_POWELL@",
+                "@I_CARL_HILTON_POWELL@",
+                "@I_LAYTON_POWELL@",
+                "@I_NATHAN_RAY_POWELL@"
+            ]
         },
         {
             "id": "@I61@",
@@ -239,7 +278,24 @@
             "parents": [
                 "@I600@"
             ],
-            "note": "Likely from OK/TX/AR region."
+            "note": "Likely from OK/TX/AR region.",
+            "spouses": [
+                "@I_ELVIA_JANE_BERRY@"
+            ],
+            "children": [
+                "@I_ALICE_POWELL@",
+                "@I_JOHN_MASON_POWELL@",
+                "@I_MARY_C_POWELL@",
+                "@I_LUCY_GREENVILLE_POWELL@",
+                "@I_EDWARD_H_POWELL@",
+                "@I_EMMA_JANE_POWELL@",
+                "@I_ROBERT_W_POWELL@",
+                "@I_THOMAS_D_POWELL@",
+                "@I_NANCY_ELLEN_POWELL@",
+                "@I_LUDWELL_I_POWELL@",
+                "@I_ROBERT_LEE_POWELL@",
+                "@I_HENRY_P_POWELL@"
+            ]
         },
         {
             "id": "@I600@",
@@ -3011,6 +3067,311 @@
             "birth_date": "",
             "death_date": "",
             "notes": ""
+        },
+        {
+            "id": "@I_ELVIA_JANE_BERRY@",
+            "name": "Elvia Jane Berry",
+            "gender": "F",
+            "spouses": [
+                "@I61@"
+            ],
+            "note": "FamilySearch ID: K8SQ-K11 (Spouse)",
+            "children": [
+                "@I_ALICE_POWELL@",
+                "@I_JOHN_MASON_POWELL@",
+                "@I_MARY_C_POWELL@",
+                "@I_LUCY_GREENVILLE_POWELL@",
+                "@I_EDWARD_H_POWELL@",
+                "@I_EMMA_JANE_POWELL@",
+                "@I_ROBERT_W_POWELL@",
+                "@I_THOMAS_D_POWELL@",
+                "@I_NANCY_ELLEN_POWELL@",
+                "@I_LUDWELL_I_POWELL@",
+                "@I_ROBERT_LEE_POWELL@",
+                "@I_HENRY_P_POWELL@",
+                "@I60@"
+            ]
+        },
+        {
+            "id": "@I_ALICE_POWELL@",
+            "name": "Alice Powell",
+            "gender": "F",
+            "birth": "1854",
+            "death": "1927",
+            "parents": [
+                "@I61@",
+                "@I_ELVIA_JANE_BERRY@"
+            ]
+        },
+        {
+            "id": "@I_JOHN_MASON_POWELL@",
+            "name": "John Mason Powell",
+            "gender": "M",
+            "birth": "1857",
+            "death": "1940",
+            "parents": [
+                "@I61@",
+                "@I_ELVIA_JANE_BERRY@"
+            ]
+        },
+        {
+            "id": "@I_MARY_C_POWELL@",
+            "name": "Mary C. Powell",
+            "gender": "F",
+            "birth": "1859",
+            "parents": [
+                "@I61@",
+                "@I_ELVIA_JANE_BERRY@"
+            ]
+        },
+        {
+            "id": "@I_LUCY_GREENVILLE_POWELL@",
+            "name": "Lucy Greenville Powell",
+            "gender": "F",
+            "birth": "1859",
+            "death": "1932",
+            "parents": [
+                "@I61@",
+                "@I_ELVIA_JANE_BERRY@"
+            ]
+        },
+        {
+            "id": "@I_EDWARD_H_POWELL@",
+            "name": "Edward H Powell",
+            "gender": "M",
+            "birth": "1861",
+            "parents": [
+                "@I61@",
+                "@I_ELVIA_JANE_BERRY@"
+            ]
+        },
+        {
+            "id": "@I_EMMA_JANE_POWELL@",
+            "name": "Emma Jane Powell",
+            "gender": "F",
+            "birth": "1864",
+            "death": "1930",
+            "parents": [
+                "@I61@",
+                "@I_ELVIA_JANE_BERRY@"
+            ]
+        },
+        {
+            "id": "@I_ROBERT_W_POWELL@",
+            "name": "Robert W Powell",
+            "gender": "M",
+            "birth": "1865",
+            "parents": [
+                "@I61@",
+                "@I_ELVIA_JANE_BERRY@"
+            ]
+        },
+        {
+            "id": "@I_THOMAS_D_POWELL@",
+            "name": "Thomas D Powell",
+            "gender": "M",
+            "birth": "1869",
+            "death": "1926",
+            "parents": [
+                "@I61@",
+                "@I_ELVIA_JANE_BERRY@"
+            ]
+        },
+        {
+            "id": "@I_NANCY_ELLEN_POWELL@",
+            "name": "Nancy Ellen Powell",
+            "gender": "F",
+            "birth": "1870",
+            "death": "1933",
+            "parents": [
+                "@I61@",
+                "@I_ELVIA_JANE_BERRY@"
+            ]
+        },
+        {
+            "id": "@I_LUDWELL_I_POWELL@",
+            "name": "Ludwell I Powell",
+            "gender": "M",
+            "birth": "1874",
+            "parents": [
+                "@I61@",
+                "@I_ELVIA_JANE_BERRY@"
+            ]
+        },
+        {
+            "id": "@I_ROBERT_LEE_POWELL@",
+            "name": "Robert Lee Powell",
+            "gender": "M",
+            "birth": "1875",
+            "death": "1959",
+            "parents": [
+                "@I61@",
+                "@I_ELVIA_JANE_BERRY@"
+            ]
+        },
+        {
+            "id": "@I_HENRY_P_POWELL@",
+            "name": "Henry P Powell",
+            "gender": "M",
+            "birth": "1876",
+            "parents": [
+                "@I61@",
+                "@I_ELVIA_JANE_BERRY@"
+            ]
+        },
+        {
+            "id": "@I_AUGUSTUS_EARL_POWELL@",
+            "name": "Augustus Earl Powell",
+            "gender": "M",
+            "birth": "1908",
+            "death": "1908",
+            "parents": [
+                "@I60@",
+                "@I62@"
+            ]
+        },
+        {
+            "id": "@I_JESSIE_PEARL_POWELL@",
+            "name": "Jessie Pearl Powell",
+            "gender": "F",
+            "birth": "1908",
+            "death": "1985",
+            "parents": [
+                "@I60@",
+                "@I62@"
+            ]
+        },
+        {
+            "id": "@I_ELVA_MAY_POWELL@",
+            "name": "Elva May Powell",
+            "gender": "F",
+            "birth": "1910",
+            "death": "1988",
+            "parents": [
+                "@I60@",
+                "@I62@"
+            ]
+        },
+        {
+            "id": "@I_OTTO_LEE_POWELL@",
+            "name": "Otto Lee Powell",
+            "gender": "M",
+            "birth": "1912",
+            "death": "1977",
+            "parents": [
+                "@I60@",
+                "@I62@"
+            ]
+        },
+        {
+            "id": "@I_JOHNIE_VERNON_POWELL@",
+            "name": "Johnie Vernon Powell",
+            "gender": "M",
+            "birth": "1914",
+            "death": "1973",
+            "parents": [
+                "@I60@",
+                "@I62@"
+            ]
+        },
+        {
+            "id": "@I_FANNIE_MARIE_POWELL@",
+            "name": "Fannie Marie Powell",
+            "gender": "F",
+            "birth": "1917",
+            "death": "1918",
+            "parents": [
+                "@I60@",
+                "@I62@"
+            ]
+        },
+        {
+            "id": "@I_CLARA_FAY_POWELL@",
+            "name": "Clara Fay Powell",
+            "gender": "F",
+            "birth": "1919",
+            "death": "1996",
+            "parents": [
+                "@I60@",
+                "@I62@"
+            ]
+        },
+        {
+            "id": "@I_FLOYD_WILLIS_POWELL@",
+            "name": "Floyd Willis Powell",
+            "gender": "M",
+            "birth": "1921",
+            "death": "1921",
+            "parents": [
+                "@I60@",
+                "@I62@"
+            ]
+        },
+        {
+            "id": "@I_ROBERT_LLOYD_POWELL@",
+            "name": "Robert Lloyd Powell",
+            "gender": "M",
+            "birth": "1921",
+            "death": "1996",
+            "parents": [
+                "@I60@",
+                "@I62@"
+            ]
+        },
+        {
+            "id": "@I_EMMA_LUCY_POWELL@",
+            "name": "Emma Lucy Powell",
+            "gender": "F",
+            "birth": "1924",
+            "death": "2007",
+            "parents": [
+                "@I60@",
+                "@I62@"
+            ]
+        },
+        {
+            "id": "@I_GARLAND_THOMAS_POWELL@",
+            "name": "Garland Thomas Powell",
+            "gender": "M",
+            "birth": "1928",
+            "death": "2001",
+            "parents": [
+                "@I60@",
+                "@I62@"
+            ]
+        },
+        {
+            "id": "@I_CARL_HILTON_POWELL@",
+            "name": "Carl Hilton Powell",
+            "gender": "M",
+            "birth": "1930",
+            "death": "1992",
+            "parents": [
+                "@I60@",
+                "@I62@"
+            ]
+        },
+        {
+            "id": "@I_LAYTON_POWELL@",
+            "name": "Layton Powell",
+            "gender": "M",
+            "birth": "1932",
+            "death": "1932",
+            "parents": [
+                "@I60@",
+                "@I62@"
+            ]
+        },
+        {
+            "id": "@I_NATHAN_RAY_POWELL@",
+            "name": "Nathan Ray Powell",
+            "gender": "M",
+            "birth": "1932",
+            "death": "2002",
+            "parents": [
+                "@I60@",
+                "@I62@"
+            ]
         }
     ]
 }
