@@ -3431,6 +3431,13 @@
             "death_year": 1992,
             "spouses": [
                 "@I_WILMA_SUE_TADLOCK@"
+            ],
+            "children": [
+                "@I_TERI_MARSHALL@",
+                "@I_TRAVIS_MARSHALL@",
+                "@I_JUSTIN_MARSHALL@",
+                "@I_DENISE_MARSHALL@",
+                "@I_KAREN_MARSHALL@"
             ]
         },
         {
@@ -3463,6 +3470,58 @@
             "death_year": 2013,
             "spouses": [
                 "@I_WILLIAM_HENRY_MARSHALL_JR@"
+            ],
+            "children": [
+                "@I_TERI_MARSHALL@",
+                "@I_TRAVIS_MARSHALL@",
+                "@I_JUSTIN_MARSHALL@",
+                "@I_DENISE_MARSHALL@",
+                "@I_KAREN_MARSHALL@"
+            ]
+        },
+        {
+            "id": "@I_TERI_MARSHALL@",
+            "name": "Teri Marshall",
+            "gender": "F",
+            "parents": [
+                "@I_WILLIAM_HENRY_MARSHALL_JR@",
+                "@I_WILMA_SUE_TADLOCK@"
+            ]
+        },
+        {
+            "id": "@I_TRAVIS_MARSHALL@",
+            "name": "Travis Marshall",
+            "gender": "M",
+            "parents": [
+                "@I_WILLIAM_HENRY_MARSHALL_JR@",
+                "@I_WILMA_SUE_TADLOCK@"
+            ]
+        },
+        {
+            "id": "@I_JUSTIN_MARSHALL@",
+            "name": "Justin Marshall",
+            "gender": "M",
+            "parents": [
+                "@I_WILLIAM_HENRY_MARSHALL_JR@",
+                "@I_WILMA_SUE_TADLOCK@"
+            ]
+        },
+        {
+            "id": "@I_DENISE_MARSHALL@",
+            "name": "Denise Marshall",
+            "gender": "F",
+            "parents": [
+                "@I_WILLIAM_HENRY_MARSHALL_JR@",
+                "@I_WILMA_SUE_TADLOCK@"
+            ]
+        },
+        {
+            "id": "@I_KAREN_MARSHALL@",
+            "name": "Karen Marshall",
+            "gender": "F",
+            "parents": [
+                "@I_WILLIAM_HENRY_MARSHALL_JR@",
+                "@I_WILMA_SUE_TADLOCK@"
             ]
         }
     ]
