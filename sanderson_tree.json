@@ -172,7 +172,15 @@
                 "@I80@",
                 "@I81@"
             ],
-            "note": "Choctaw lineage. Reportedly signed the rolls."
+            "note": "Choctaw lineage. Reportedly signed the rolls.",
+            "children": [
+                "@I_LUELLA_MAE_MARSHALL@",
+                "@I_JOSEPH_MARSHALL@",
+                "@I_IDA_BELL_MARSHALL@",
+                "@I_WILLIAM_HENRY_MARSHALL_JR@",
+                "@I_ROBERT_LEE_MARSHALL@",
+                "@I_JESSIE_CHARLES_MARSHALL@"
+            ]
         },
         {
             "id": "@I9@",
@@ -183,6 +191,14 @@
             "parents": [
                 "@I91@",
                 "@I90@"
+            ],
+            "children": [
+                "@I_LUELLA_MAE_MARSHALL@",
+                "@I_JOSEPH_MARSHALL@",
+                "@I_IDA_BELL_MARSHALL@",
+                "@I_WILLIAM_HENRY_MARSHALL_JR@",
+                "@I_ROBERT_LEE_MARSHALL@",
+                "@I_JESSIE_CHARLES_MARSHALL@"
             ]
         },
         {
@@ -3372,6 +3388,69 @@
                 "@I60@",
                 "@I62@"
             ]
+        },
+        {
+            "id": "@I_LUELLA_MAE_MARSHALL@",
+            "name": "Luella Mae Marshall",
+            "gender": "F",
+            "birth_year": 1926,
+            "parents": [
+                "@I8@",
+                "@I9@"
+            ]
+        },
+        {
+            "id": "@I_JOSEPH_MARSHALL@",
+            "name": "Joseph Marshall",
+            "gender": "M",
+            "birth_year": 1929,
+            "parents": [
+                "@I8@",
+                "@I9@"
+            ]
+        },
+        {
+            "id": "@I_IDA_BELL_MARSHALL@",
+            "name": "Ida Bell Marshall",
+            "gender": "F",
+            "birth_year": 1930,
+            "parents": [
+                "@I8@",
+                "@I9@"
+            ]
+        },
+        {
+            "id": "@I_WILLIAM_HENRY_MARSHALL_JR@",
+            "name": "William Henry Marshall Jr",
+            "gender": "M",
+            "birth_year": 1932,
+            "parents": [
+                "@I8@",
+                "@I9@"
+            ],
+            "death_year": 1992
+        },
+        {
+            "id": "@I_ROBERT_LEE_MARSHALL@",
+            "name": "Robert Lee Marshall",
+            "gender": "M",
+            "birth_year": 1934,
+            "parents": [
+                "@I8@",
+                "@I9@"
+            ],
+            "death_year": 1979
+        },
+        {
+            "id": "@I_JESSIE_CHARLES_MARSHALL@",
+            "name": "Jessie Charles Marshall",
+            "gender": "M",
+            "birth_year": 1940,
+            "parents": [
+                "@I8@",
+                "@I9@"
+            ],
+            "death_year": 1992
         }
     ]
 }
