@@ -548,19 +548,22 @@
       "id": "@I350@",
       "name": "David Vernon",
       "gender": "M",
-      "note": "2nd Cousin."
+      "note": "2nd Cousin.",
+      "spouse": "Betty Jane DeFoor (later Lois)"
     },
     {
       "id": "@I351@",
       "name": "Dale Vernon",
       "gender": "M",
-      "note": "2nd Cousin."
+      "note": "2nd Cousin.",
+      "spouse": "Judy"
     },
     {
       "id": "@I352@",
       "name": "Dennis Vernon",
       "gender": "M",
-      "note": "2nd Cousin."
+      "note": "2nd Cousin.",
+      "spouse": "Kathryn"
     },
     {
       "id": "@I353@",
@@ -568,7 +571,15 @@
       "gender": "M",
       "birth_year": 1961,
       "death_year": 2020,
-      "note": "2nd Cousin."
+      "note": "2nd Cousin.",
+      "spouse": "Jeanne (companion: Lou Fincher)",
+      "children": [
+        "@I851@",
+        "@I852@",
+        "@I853@",
+        "@I854@",
+        "@I855@"
+      ]
     },
     {
       "id": "@I354@",
@@ -576,25 +587,35 @@
       "gender": "F",
       "birth_year": 1952,
       "death_year": 2016,
-      "note": "2nd Cousin."
+      "note": "2nd Cousin.",
+      "spouse": "Clifford King",
+      "children": [
+        "@I856@"
+      ]
     },
     {
       "id": "@I355@",
       "name": "Debbie (Vernon) Hayes",
       "gender": "F",
-      "note": "2nd Cousin."
+      "note": "2nd Cousin.",
+      "spouse": "James Hayes",
+      "children": [
+        "@I857@"
+      ]
     },
     {
       "id": "@I356@",
       "name": "Danell (Vernon) Bray",
       "gender": "F",
-      "note": "2nd Cousin."
+      "note": "2nd Cousin.",
+      "spouse": "Danny Bray"
     },
     {
       "id": "@I357@",
       "name": "Denise (Vernon) Menke Voyles",
       "gender": "F",
-      "note": "2nd Cousin."
+      "note": "2nd Cousin.",
+      "spouse": "Jim Menke (later Billy Voyles)"
     },
     {
       "id": "@I300@",
@@ -2447,6 +2468,148 @@
       "parents": [
         "@I423_1@"
       ]
+    },
+    {
+      "id": "@I851@",
+      "name": "Mindy Robinson",
+      "gender": "U",
+      "parents": [
+        "@I353@"
+      ],
+      "note": "Identified from 2020 obituary.",
+      "children": [
+        "@I858@",
+        "@I859@"
+      ]
+    },
+    {
+      "id": "@I852@",
+      "name": "Greg Piper",
+      "gender": "U",
+      "parents": [
+        "@I353@"
+      ],
+      "note": "Identified from 2020 obituary."
+    },
+    {
+      "id": "@I853@",
+      "name": "Dillon Vernon",
+      "gender": "U",
+      "parents": [
+        "@I353@"
+      ],
+      "note": "Identified from 2020 obituary."
+    },
+    {
+      "id": "@I854@",
+      "name": "Caleb Vernon",
+      "gender": "U",
+      "parents": [
+        "@I353@"
+      ],
+      "spouse": "Mikayla",
+      "note": "Identified from 2020 obituary."
+    },
+    {
+      "id": "@I855@",
+      "name": "Candace Barella",
+      "gender": "U",
+      "parents": [
+        "@I353@"
+      ],
+      "note": "Identified from 2020 obituary."
+    },
+    {
+      "id": "@I856@",
+      "name": "Bradley Con King",
+      "gender": "U",
+      "parents": [
+        "@I354@"
+      ],
+      "note": "Identified from 2016 obituary.",
+      "death_year": 2014
+    },
+    {
+      "id": "@I857@",
+      "name": "Chris Hayes",
+      "gender": "U",
+      "parents": [
+        "@I355@"
+      ],
+      "note": "Deceased. Identified as nephew in Connie's 2016 obit."
+    },
+    {
+      "id": "@I858@",
+      "name": "Cooper Robinson",
+      "gender": "U",
+      "parents": [
+        "@I851@"
+      ],
+      "note": "Grandson of Carl Dean Vernon."
+    },
+    {
+      "id": "@I859@",
+      "name": "Parker Robinson",
+      "gender": "U",
+      "parents": [
+        "@I851@"
+      ],
+      "note": "Grandson of Carl Dean Vernon."
+    },
+    {
+      "id": "@I860@",
+      "name": "Corbin Dean Vernon",
+      "gender": "U",
+      "note": "Grandson of Carl Dean Vernon (Parent ambiguous between Dillon/Caleb)."
+    },
+    {
+      "id": "@I861@",
+      "name": "Camdyn Vernon",
+      "gender": "U",
+      "note": "Grandchild of Carl Dean Vernon."
+    },
+    {
+      "id": "@I862@",
+      "name": "Landree Vernon",
+      "gender": "U",
+      "note": "Grandchild of Carl Dean Vernon."
+    },
+    {
+      "id": "@I863@",
+      "name": "Chase Vernon",
+      "gender": "U",
+      "note": "Grandchild of Carl Dean Vernon."
+    },
+    {
+      "id": "@I864@",
+      "name": "Raelyn Mitchell",
+      "gender": "U",
+      "note": "Grandchild of Carl Dean Vernon."
+    },
+    {
+      "id": "@I865@",
+      "name": "Raylynn Buechner",
+      "gender": "U",
+      "note": "Grandchild of Carl Dean Vernon."
+    },
+    {
+      "id": "@I866@",
+      "name": "Donivon Buechner",
+      "gender": "U",
+      "note": "Grandchild of Carl Dean Vernon."
+    },
+    {
+      "id": "@I867@",
+      "name": "Jenelle Buechner",
+      "gender": "U",
+      "note": "Grandchild of Carl Dean Vernon."
+    },
+    {
+      "id": "@I868@",
+      "name": "Michael Tanner Vernon",
+      "gender": "U",
+      "note": "Great-grandson of Melvin 'Smooth' and Meady Mae Vernon. Grandfather was Jimmie Jo Mann.",
+      "death_year": 2021
     }
   ]
 }
