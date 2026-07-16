@@ -215,6 +215,9 @@
             "note": "Married Salina Annie Palmer in 1899, Atoka Co, OK.",
             "children": [
                 "@I_JOHN_LEE_MARSHALL@"
+            ],
+            "parents": [
+                "@I_HENRY_MARSHALL_1840@"
             ]
         },
         {
@@ -3686,6 +3689,16 @@
             "gender": "M",
             "birth_year": 1906,
             "parents": [
+                "@I80@"
+            ]
+        },
+        {
+            "id": "@I_HENRY_MARSHALL_1840@",
+            "name": "Henry Marshall",
+            "gender": "M",
+            "birth_year": 1840,
+            "note": "Born in Indian Territory, United States. Father of William Henry Marshall Sr.",
+            "children": [
                 "@I80@"
             ]
         }
