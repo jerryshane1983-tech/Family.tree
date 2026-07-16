@@ -158,9 +158,13 @@
             "death_date": "1991-05-14",
             "parents": [
                 "@I9@",
-                "@I8@"
+                "@I8@",
+                "@4666741935975388@"
             ],
-            "note": "Matrilineal source of the Choctaw Bear Clan identity."
+            "note": "Matrilineal source of the Choctaw Bear Clan identity.",
+            "children": [
+                "@5050159099474825@"
+            ]
         },
         {
             "id": "@I8@",
@@ -170,7 +174,8 @@
             "death_year": 1987,
             "parents": [
                 "@I80@",
-                "@I81@"
+                "@I81@",
+                "@5769414532492444@"
             ],
             "note": "Choctaw lineage. Reportedly signed the rolls.",
             "children": [
@@ -182,7 +187,8 @@
                 "@I_JESSIE_CHARLES_MARSHALL@",
                 "@I_KENNETH_MARSHALL@",
                 "@I_GLORIA_MARSHALL@",
-                "@I_LUCILLE_VIRGINIA_MARSHALL@"
+                "@I_LUCILLE_VIRGINIA_MARSHALL@",
+                "@I5@"
             ]
         },
         {
@@ -224,7 +230,14 @@
             "id": "@I81@",
             "name": "Salina Annie Palmer",
             "gender": "F",
-            "birth_year": 1881
+            "birth_year": 1881,
+            "parents": [
+                "@7817558515264181@",
+                "@2170702152988709@"
+            ],
+            "children": [
+                "@I8@"
+            ]
         },
         {
             "id": "@I90@",
@@ -248,7 +261,8 @@
             "death_year": 1938,
             "parents": [
                 "@I61@",
-                "@I_ELVIA_JANE_BERRY@"
+                "@I_ELVIA_JANE_BERRY@",
+                "@4767468130953020@"
             ],
             "birth": "1 April 1872, Brandenburg, Meade, Kentucky, United States",
             "death": "6 May 1938, Jefferson, Oklahoma, United States",
@@ -296,6 +310,10 @@
                 "@I_CARL_HILTON_POWELL@",
                 "@I_LAYTON_POWELL@",
                 "@I_NATHAN_RAY_POWELL@"
+            ],
+            "parents": [
+                "@617384007205765@",
+                "@2450944234504348@"
             ]
         },
         {
@@ -3118,6 +3136,10 @@
                 "@I_ROBERT_LEE_POWELL@",
                 "@I_HENRY_P_POWELL@",
                 "@I60@"
+            ],
+            "parents": [
+                "@14699446927385@",
+                "@2540750429852264@"
             ]
         },
         {
@@ -3366,6 +3388,9 @@
             "parents": [
                 "@I60@",
                 "@I62@"
+            ],
+            "children": [
+                "@5050159099474825@"
             ]
         },
         {
@@ -3699,8 +3724,1119 @@
             "birth_year": 1840,
             "note": "Born in Indian Territory, United States. Father of William Henry Marshall Sr.",
             "children": [
-                "@I80@"
+                "@I80@",
+                "@5769414532492444@"
+            ],
+            "parents": []
+        },
+        {
+            "id": "@2564321245074284@",
+            "name": "Jerry Sanderson",
+            "gender": "M",
+            "parents": [
+                "@5050159099474825@",
+                "@7944214686725630@"
+            ],
+            "children": [],
+            "birth_year": 1983
+        },
+        {
+            "id": "@1035241489728471@",
+            "name": "Edward Bybee",
+            "gender": "M",
+            "parents": [
+                "@365075082646468@",
+                "@1675161898241513@"
+            ],
+            "children": [
+                "@8493296265844474@"
+            ],
+            "birth_year": 1813
+        },
+        {
+            "id": "@1044024100914240@",
+            "name": "Francis Ann Kendall",
+            "gender": "F",
+            "parents": [],
+            "children": [
+                "@7200213982448718@"
+            ],
+            "birth_year": 1737,
+            "death_year": 1818
+        },
+        {
+            "id": "@1116932704517774@",
+            "name": "Isaiah Ivey",
+            "gender": "M",
+            "parents": [
+                "@8617871096039761@",
+                "@665863434294864@"
+            ],
+            "children": [
+                "@8167179581886206@"
+            ],
+            "birth_year": 1775,
+            "death_year": 1839
+        },
+        {
+            "id": "@1259403542345355@",
+            "name": "Awilda Morrow",
+            "gender": "F",
+            "parents": [
+                "@6158110222299130@",
+                "@5713465191598077@"
+            ],
+            "children": [
+                "@1618727262238751@"
+            ],
+            "birth_year": 1854,
+            "death_year": 1931
+        },
+        {
+            "id": "@1297009742623048@",
+            "name": "Ann Ballews",
+            "gender": "F",
+            "parents": [],
+            "children": [
+                "@365075082646468@"
+            ],
+            "birth_year": 1750
+        },
+        {
+            "id": "@14699446927385@",
+            "name": "Green Berry",
+            "gender": "M",
+            "parents": [
+                "@4187472667301691@",
+                "@8617075469909072@"
+            ],
+            "children": [
+                "@I_ELVIA_JANE_BERRY@"
+            ],
+            "birth_year": 1811,
+            "death_year": 1860
+        },
+        {
+            "id": "@1473456141977037@",
+            "name": "Bird Wilson Talley",
+            "gender": "M",
+            "parents": [
+                "@5035382073940087@",
+                "@2446192441708662@"
+            ],
+            "children": [
+                "@4544667618179628@"
+            ],
+            "death_year": 1905,
+            "birth_year": 1819
+        },
+        {
+            "id": "@1474506335553769@",
+            "name": "James King",
+            "gender": "M",
+            "parents": [
+                "@6619010479591944@",
+                "@1731229805924503@"
+            ],
+            "children": [
+                "@3249513027070555@"
+            ],
+            "death_year": 1857,
+            "birth_year": 1776
+        },
+        {
+            "id": "@1535481158435883@",
+            "name": "Alice Rose Dodson",
+            "gender": "F",
+            "parents": [],
+            "children": [
+                "@884692629465273@"
+            ],
+            "birth_year": 1766
+        },
+        {
+            "id": "@1618727262238751@",
+            "name": "William Talley",
+            "gender": "M",
+            "parents": [
+                "@1259403542345355@",
+                "@4544667618179628@"
+            ],
+            "children": [
+                "@4666741935975388@"
+            ],
+            "death_year": 1928,
+            "birth_year": 1874
+        },
+        {
+            "id": "@1675161898241513@",
+            "name": "Tabithe Barlow",
+            "gender": "F",
+            "parents": [],
+            "children": [
+                "@1035241489728471@"
+            ],
+            "birth_year": 1782,
+            "death_year": 1850
+        },
+        {
+            "id": "@1677272153524998@",
+            "name": "Patrick Cane or Cain",
+            "gender": "M",
+            "parents": [],
+            "children": [
+                "@6073520637470273@"
             ]
+        },
+        {
+            "id": "@1687887747284474@",
+            "name": "Margaret Kercheval",
+            "gender": "F",
+            "parents": [
+                "@1785044571892220@",
+                "@689750393674555@"
+            ],
+            "children": [
+                "@4187472667301691@"
+            ],
+            "birth_year": 1761
+        },
+        {
+            "id": "@1731229805924503@",
+            "name": "James King",
+            "gender": "M",
+            "parents": [],
+            "children": [
+                "@1474506335553769@"
+            ],
+            "death_year": 1777,
+            "birth_year": 1741
+        },
+        {
+            "id": "@1785044571892220@",
+            "name": "Francis Winifred G Holson",
+            "gender": "F",
+            "parents": [],
+            "children": [
+                "@1687887747284474@"
+            ],
+            "death_year": 1788,
+            "birth_year": 1738
+        },
+        {
+            "id": "@1840486587930184@",
+            "name": "Rosanna Cain Or Cane",
+            "gender": "F",
+            "parents": [
+                "@6073520637470273@",
+                "@8779452143188695@"
+            ],
+            "children": [
+                "@2445137987723640@"
+            ],
+            "death_year": 1880,
+            "birth_year": 1813
+        },
+        {
+            "id": "@1899125512232554@",
+            "name": "Mary",
+            "gender": "F",
+            "parents": [],
+            "children": [
+                "@8617075469909072@"
+            ],
+            "birth_year": 1754,
+            "death_year": 1838
+        },
+        {
+            "id": "@1936224478979326@",
+            "name": "Thomas Berry",
+            "gender": "M",
+            "parents": [],
+            "children": [
+                "@7200213982448718@"
+            ],
+            "birth_year": 1733,
+            "death_year": 1818
+        },
+        {
+            "id": "@2082901283067476@",
+            "name": "James \u201cRunning Feather\u201d Martin",
+            "gender": "M",
+            "parents": [],
+            "children": [
+                "@5035382073940087@"
+            ],
+            "death_year": 1827,
+            "birth_year": 1765
+        },
+        {
+            "id": "@2170702152988709@",
+            "name": "Winnie Palmer",
+            "gender": "F",
+            "parents": [],
+            "children": [
+                "@I81@"
+            ]
+        },
+        {
+            "id": "@2214246634986572@",
+            "name": "Anthony Raizor",
+            "gender": "M",
+            "parents": [
+                "@2900256192585627@",
+                "@2857191379721704@"
+            ],
+            "children": [
+                "@8617075469909072@"
+            ],
+            "birth_year": 1747,
+            "death_year": 1841
+        },
+        {
+            "id": "@2437674864988584@",
+            "name": "Rutha Eleanor",
+            "gender": "F",
+            "parents": [],
+            "children": [
+                "@6158110222299130@"
+            ],
+            "death_year": 1885,
+            "birth_year": 1794
+        },
+        {
+            "id": "@2445137987723640@",
+            "name": "Lenora Ivey",
+            "gender": "F",
+            "parents": [
+                "@1840486587930184@",
+                "@8167179581886206@"
+            ],
+            "children": [
+                "@2450944234504348@"
+            ],
+            "birth_year": 1838,
+            "death_year": 1910
+        },
+        {
+            "id": "@2446192441708662@",
+            "name": "Bird Tipton Talley",
+            "gender": "M",
+            "parents": [
+                "@4230287251054756@",
+                "@615832181505395@"
+            ],
+            "children": [
+                "@1473456141977037@"
+            ],
+            "death_year": 1862,
+            "birth_year": 1785
+        },
+        {
+            "id": "@2450944234504348@",
+            "name": "Lenorah Francis Yarbree",
+            "gender": "F",
+            "parents": [
+                "@4806385319323275@",
+                "@2445137987723640@"
+            ],
+            "children": [
+                "@I62@"
+            ],
+            "birth_year": 1868,
+            "death_year": 1914
+        },
+        {
+            "id": "@2540750429852264@",
+            "name": "Mary H. Burnett or Bennett",
+            "gender": "F",
+            "parents": [],
+            "children": [
+                "@I_ELVIA_JANE_BERRY@"
+            ],
+            "birth_year": 1803
+        },
+        {
+            "id": "@2623597097127199@",
+            "name": "Ritchie Pitts",
+            "gender": "M",
+            "parents": [],
+            "children": [
+                "@3431942728085110@"
+            ],
+            "death_year": 1810,
+            "birth_year": 1765
+        },
+        {
+            "id": "@2857191379721704@",
+            "name": "Peter Razor",
+            "gender": "M",
+            "parents": [],
+            "children": [
+                "@2214246634986572@"
+            ],
+            "birth_year": 1725,
+            "death_year": 1762
+        },
+        {
+            "id": "@288335945954236@",
+            "name": "James J. Yarborough",
+            "gender": "M",
+            "parents": [],
+            "children": [
+                "@4806385319323275@"
+            ],
+            "birth_year": 1800
+        },
+        {
+            "id": "@2900256192585627@",
+            "name": "Margaret Brown",
+            "gender": "F",
+            "parents": [],
+            "children": [
+                "@2214246634986572@"
+            ],
+            "birth_year": 1727,
+            "death_year": 1768
+        },
+        {
+            "id": "@3149196645933056@",
+            "name": "Thomas Lovelace",
+            "gender": "M",
+            "parents": [
+                "@3910846901447583@",
+                "@359307236136193@"
+            ],
+            "children": [
+                "@3954497991050116@"
+            ],
+            "death_year": 1851,
+            "birth_year": 1776
+        },
+        {
+            "id": "@3249513027070555@",
+            "name": "Polly King",
+            "gender": "F",
+            "parents": [
+                "@7360367112366881@",
+                "@1474506335553769@"
+            ],
+            "children": [
+                "@8493296265844474@"
+            ],
+            "birth_year": 1811,
+            "death_year": 1883
+        },
+        {
+            "id": "@3431942728085110@",
+            "name": "Jesse Pitts",
+            "gender": "M",
+            "parents": [
+                "@5739415019981852@",
+                "@2623597097127199@"
+            ],
+            "children": [
+                "@5790043570557374@"
+            ],
+            "death_year": 1877,
+            "birth_year": 1795
+        },
+        {
+            "id": "@356612428868793@",
+            "name": "Sally",
+            "gender": "F",
+            "parents": [],
+            "children": [
+                "@6073520637470273@"
+            ]
+        },
+        {
+            "id": "@359307236136193@",
+            "name": "Thomas Lovelace",
+            "gender": "M",
+            "parents": [],
+            "children": [
+                "@3149196645933056@"
+            ],
+            "birth_year": 1739,
+            "death_year": 1792
+        },
+        {
+            "id": "@3603204752009658@",
+            "name": "Winifred Lockett",
+            "gender": "F",
+            "parents": [],
+            "children": [
+                "@4349778701141518@"
+            ]
+        },
+        {
+            "id": "@365075082646468@",
+            "name": "Joseph Bybee",
+            "gender": "M",
+            "parents": [
+                "@1297009742623048@",
+                "@7127023272124998@"
+            ],
+            "children": [
+                "@1035241489728471@"
+            ],
+            "death_year": 1843,
+            "birth_year": 1779
+        },
+        {
+            "id": "@3658870128594264@",
+            "name": "Karr",
+            "gender": "M",
+            "parents": [],
+            "children": [
+                "@5713465191598077@"
+            ]
+        },
+        {
+            "id": "@3827541416197283@",
+            "name": "Karr",
+            "gender": "F",
+            "parents": [],
+            "children": [
+                "@5713465191598077@"
+            ]
+        },
+        {
+            "id": "@3910846901447583@",
+            "name": "Tabitha Oldham",
+            "gender": "F",
+            "parents": [],
+            "children": [
+                "@3149196645933056@"
+            ],
+            "death_year": 1833,
+            "birth_year": 1747
+        },
+        {
+            "id": "@3954497991050116@",
+            "name": "Winafred L",
+            "gender": "F",
+            "parents": [
+                "@4349778701141518@",
+                "@3149196645933056@"
+            ],
+            "children": [
+                "@5790043570557374@"
+            ],
+            "birth_year": 1809,
+            "death_year": 1883
+        },
+        {
+            "id": "@4132217443051291@",
+            "name": "William Morrow",
+            "gender": "M",
+            "parents": [
+                "@5814047900468072@",
+                "@7848092409679429@"
+            ],
+            "children": [
+                "@6158110222299130@"
+            ],
+            "birth_year": 1789,
+            "death_year": 1859
+        },
+        {
+            "id": "@4187472667301691@",
+            "name": "Samuel Berry",
+            "gender": "M",
+            "parents": [
+                "@1687887747284474@",
+                "@7200213982448718@"
+            ],
+            "children": [
+                "@14699446927385@"
+            ],
+            "birth_year": 1783
+        },
+        {
+            "id": "@4230287251054756@",
+            "name": "John Talley",
+            "gender": "M",
+            "parents": [],
+            "children": [
+                "@2446192441708662@"
+            ],
+            "birth_year": 1761,
+            "death_year": 1843
+        },
+        {
+            "id": "@431431541356254@",
+            "name": "Stephen Johnson",
+            "gender": "M",
+            "parents": [],
+            "children": [
+                "@884692629465273@"
+            ],
+            "death_year": 1845,
+            "birth_year": 1775
+        },
+        {
+            "id": "@4349778701141518@",
+            "name": "Anne Mitchell",
+            "gender": "F",
+            "parents": [
+                "@3603204752009658@"
+            ],
+            "children": [
+                "@3954497991050116@"
+            ],
+            "death_year": 1831,
+            "birth_year": 1782
+        },
+        {
+            "id": "@4544667618179628@",
+            "name": "James Hardy Talley",
+            "gender": "M",
+            "parents": [
+                "@1473456141977037@",
+                "@6617760273465096@"
+            ],
+            "children": [
+                "@1618727262238751@"
+            ],
+            "birth_year": 1844,
+            "death_year": 1921
+        },
+        {
+            "id": "@4666741935975388@",
+            "name": "Cornelia Edith Marshall",
+            "gender": "F",
+            "parents": [
+                "@8107450152872218@",
+                "@1618727262238751@"
+            ],
+            "children": [
+                "@I5@"
+            ],
+            "birth_year": 1902,
+            "death_year": 1996
+        },
+        {
+            "id": "@4767468130953020@",
+            "name": "Robt. Powell",
+            "gender": "M",
+            "parents": [
+                "@6034805594945112@",
+                "@6685163291765959@"
+            ],
+            "children": [
+                "@I60@"
+            ],
+            "birth_year": 1826,
+            "death_year": 1880
+        },
+        {
+            "id": "@4806385319323275@",
+            "name": "Green Berry Yarborough",
+            "gender": "M",
+            "parents": [
+                "@288335945954236@",
+                "@8115524334508923@"
+            ],
+            "children": [
+                "@2450944234504348@"
+            ],
+            "death_year": 1870,
+            "birth_year": 1822
+        },
+        {
+            "id": "@5035382073940087@",
+            "name": "Nancy Talley",
+            "gender": "F",
+            "parents": [
+                "@7940575884682273@",
+                "@8324720788932957@",
+                "@6279291117812139@",
+                "@2082901283067476@"
+            ],
+            "children": [
+                "@1473456141977037@"
+            ],
+            "birth_year": 1800,
+            "death_year": 1860
+        },
+        {
+            "id": "@5050159099474825@",
+            "name": "Pearl Ann Powell",
+            "gender": "F",
+            "parents": [
+                "@I_GARLAND_THOMAS_POWELL@",
+                "@I5@"
+            ],
+            "children": [
+                "@2564321245074284@"
+            ],
+            "death_year": 2009,
+            "birth_year": 1960
+        },
+        {
+            "id": "@5507252990377141@",
+            "name": "Solomon Johnson",
+            "gender": "M",
+            "parents": [],
+            "children": [
+                "@884692629465273@"
+            ],
+            "death_year": 1845,
+            "birth_year": 1755
+        },
+        {
+            "id": "@5648853872433923@",
+            "name": "Sarah Morris",
+            "gender": "F",
+            "parents": [],
+            "children": [
+                "@884692629465273@"
+            ],
+            "birth_year": 1760,
+            "death_year": 1820
+        },
+        {
+            "id": "@5713465191598077@",
+            "name": "Diantha Marie Karr",
+            "gender": "F",
+            "parents": [
+                "@3658870128594264@",
+                "@3827541416197283@"
+            ],
+            "children": [
+                "@1259403542345355@"
+            ],
+            "birth_year": 1826,
+            "death_year": 1860
+        },
+        {
+            "id": "@5739415019981852@",
+            "name": "Lucy Brown",
+            "gender": "F",
+            "parents": [
+                "@7204010466025991@",
+                "@8705135568995859@"
+            ],
+            "children": [
+                "@3431942728085110@"
+            ],
+            "birth_year": 1769,
+            "death_year": 1859
+        },
+        {
+            "id": "@5769414532492444@",
+            "name": "William Henry Marshall",
+            "gender": "M",
+            "parents": [
+                "@I_HENRY_MARSHALL_1840@"
+            ],
+            "children": [
+                "@I8@"
+            ],
+            "birth_year": 1871
+        },
+        {
+            "id": "@5790043570557374@",
+            "name": "William Curtis Pitts",
+            "gender": "M",
+            "parents": [
+                "@3431942728085110@",
+                "@3954497991050116@"
+            ],
+            "children": [
+                "@8107450152872218@"
+            ],
+            "death_year": 1914,
+            "birth_year": 1843
+        },
+        {
+            "id": "@5814047900468072@",
+            "name": "Richard Morrow",
+            "gender": "M",
+            "parents": [],
+            "children": [
+                "@4132217443051291@"
+            ],
+            "death_year": 1813,
+            "birth_year": 1749
+        },
+        {
+            "id": "@6001393967539977@",
+            "name": "Anthony Reesor",
+            "gender": "M",
+            "parents": [],
+            "children": [
+                "@8617075469909072@"
+            ],
+            "death_year": 1841,
+            "birth_year": 1764
+        },
+        {
+            "id": "@6034805594945112@",
+            "name": "John W. Powell",
+            "gender": "M",
+            "parents": [],
+            "children": [
+                "@4767468130953020@"
+            ],
+            "death_year": 1847
+        },
+        {
+            "id": "@6073520637470273@",
+            "name": "William Cain",
+            "gender": "M",
+            "parents": [
+                "@1677272153524998@",
+                "@356612428868793@"
+            ],
+            "children": [
+                "@1840486587930184@"
+            ],
+            "birth_year": 1774,
+            "death_year": 1826
+        },
+        {
+            "id": "@6158110222299130@",
+            "name": "Joseph H Morrow",
+            "gender": "M",
+            "parents": [
+                "@4132217443051291@",
+                "@2437674864988584@"
+            ],
+            "children": [
+                "@1259403542345355@"
+            ],
+            "death_year": 1864,
+            "birth_year": 1819
+        },
+        {
+            "id": "@615832181505395@",
+            "name": "Jane Crowder",
+            "gender": "F",
+            "parents": [],
+            "children": [
+                "@2446192441708662@"
+            ],
+            "death_year": 1830,
+            "birth_year": 1763
+        },
+        {
+            "id": "@617384007205765@",
+            "name": "Calvin Willis Dennis",
+            "gender": "M",
+            "parents": [],
+            "children": [
+                "@I62@"
+            ],
+            "death_year": 1905,
+            "birth_year": 1844
+        },
+        {
+            "id": "@6279291117812139@",
+            "name": "Nancy",
+            "gender": "F",
+            "parents": [],
+            "children": [
+                "@5035382073940087@"
+            ],
+            "birth_year": 1790
+        },
+        {
+            "id": "@6617760273465096@",
+            "name": "Martha",
+            "gender": "F",
+            "parents": [
+                "@884692629465273@",
+                "@6942007996293929@"
+            ],
+            "children": [
+                "@4544667618179628@"
+            ],
+            "birth_year": 1824,
+            "death_year": 1905
+        },
+        {
+            "id": "@6619010479591944@",
+            "name": "Susannah",
+            "gender": "F",
+            "parents": [],
+            "children": [
+                "@1474506335553769@"
+            ],
+            "birth_year": 1755,
+            "death_year": 1790
+        },
+        {
+            "id": "@665863434294864@",
+            "name": "Manning Ivey",
+            "gender": "F",
+            "parents": [],
+            "children": [
+                "@1116932704517774@"
+            ],
+            "birth_year": 1752,
+            "death_year": 1850
+        },
+        {
+            "id": "@6685163291765959@",
+            "name": "Nancy Mason",
+            "gender": "F",
+            "parents": [],
+            "children": [
+                "@4767468130953020@"
+            ],
+            "death_year": 1880,
+            "birth_year": 1789
+        },
+        {
+            "id": "@689750393674555@",
+            "name": "John Kercheval",
+            "gender": "M",
+            "parents": [],
+            "children": [
+                "@1687887747284474@"
+            ],
+            "death_year": 1788,
+            "birth_year": 1737
+        },
+        {
+            "id": "@6942007996293929@",
+            "name": "Mary Smith",
+            "gender": "F",
+            "parents": [],
+            "children": [
+                "@6617760273465096@"
+            ],
+            "death_year": 1846,
+            "birth_year": 1802
+        },
+        {
+            "id": "@7127023272124998@",
+            "name": "Edward Biby",
+            "gender": "M",
+            "parents": [],
+            "children": [
+                "@365075082646468@"
+            ],
+            "death_year": 1832,
+            "birth_year": 1746
+        },
+        {
+            "id": "@7200213982448718@",
+            "name": "Joseph Berry",
+            "gender": "M",
+            "parents": [
+                "@1936224478979326@",
+                "@1044024100914240@"
+            ],
+            "children": [
+                "@4187472667301691@"
+            ],
+            "birth_year": 1762,
+            "death_year": 1825
+        },
+        {
+            "id": "@7204010466025991@",
+            "name": "John Brown",
+            "gender": "M",
+            "parents": [],
+            "children": [
+                "@5739415019981852@",
+                "@7360367112366881@"
+            ],
+            "birth_year": 1745,
+            "death_year": 1836
+        },
+        {
+            "id": "@7226244835618886@",
+            "name": "Mary Ivy",
+            "gender": "F",
+            "parents": [],
+            "children": [
+                "@8167179581886206@"
+            ],
+            "death_year": 1855,
+            "birth_year": 1785
+        },
+        {
+            "id": "@7360367112366881@",
+            "name": "Mary Brown",
+            "gender": "F",
+            "parents": [
+                "@7204010466025991@",
+                "@8705135568995859@"
+            ],
+            "children": [
+                "@3249513027070555@"
+            ],
+            "death_year": 1858,
+            "birth_year": 1779
+        },
+        {
+            "id": "@7817558515264181@",
+            "name": "John Palmer",
+            "gender": "M",
+            "parents": [],
+            "children": [
+                "@I81@"
+            ]
+        },
+        {
+            "id": "@7848092409679429@",
+            "name": "Margaret Morrow",
+            "gender": "F",
+            "parents": [],
+            "children": [
+                "@4132217443051291@"
+            ],
+            "birth_year": 1752
+        },
+        {
+            "id": "@7940575884682273@",
+            "name": "Nancy",
+            "gender": "F",
+            "parents": [],
+            "children": [
+                "@5035382073940087@"
+            ]
+        },
+        {
+            "id": "@7944214686725630@",
+            "name": "Freddie Sanderson",
+            "gender": "M",
+            "parents": [],
+            "children": [
+                "@2564321245074284@"
+            ],
+            "birth_year": 1962
+        },
+        {
+            "id": "@8107450152872218@",
+            "name": "Willie E Pitts",
+            "gender": "F",
+            "parents": [
+                "@5790043570557374@",
+                "@8493296265844474@"
+            ],
+            "children": [
+                "@4666741935975388@"
+            ],
+            "death_year": 1926,
+            "birth_year": 1874
+        },
+        {
+            "id": "@8115524334508923@",
+            "name": "Rebecca",
+            "gender": "F",
+            "parents": [],
+            "children": [
+                "@4806385319323275@"
+            ],
+            "birth_year": 1800
+        },
+        {
+            "id": "@8167179581886206@",
+            "name": "Magirt Ivy",
+            "gender": "M",
+            "parents": [
+                "@7226244835618886@",
+                "@1116932704517774@"
+            ],
+            "children": [
+                "@2445137987723640@"
+            ],
+            "death_year": 1870,
+            "birth_year": 1793
+        },
+        {
+            "id": "@8324720788932957@",
+            "name": "James Running Feather Martin",
+            "gender": "M",
+            "parents": [],
+            "children": [
+                "@5035382073940087@"
+            ],
+            "birth_year": 1790
+        },
+        {
+            "id": "@8493296265844474@",
+            "name": "Frances Fannie Nannie Maria Mary Bybee",
+            "gender": "F",
+            "parents": [
+                "@3249513027070555@",
+                "@1035241489728471@"
+            ],
+            "children": [
+                "@8107450152872218@"
+            ],
+            "birth_year": 1839,
+            "death_year": 1886
+        },
+        {
+            "id": "@8617075469909072@",
+            "name": "Samuel Berry",
+            "gender": "F",
+            "parents": [
+                "@6001393967539977@",
+                "@1899125512232554@",
+                "@2214246634986572@"
+            ],
+            "children": [
+                "@14699446927385@"
+            ],
+            "birth_year": 1778
+        },
+        {
+            "id": "@8617871096039761@",
+            "name": "James Ivey",
+            "gender": "M",
+            "parents": [],
+            "children": [
+                "@1116932704517774@"
+            ],
+            "death_year": 1820,
+            "birth_year": 1745
+        },
+        {
+            "id": "@8705135568995859@",
+            "name": "Nancy Cannifax",
+            "gender": "F",
+            "parents": [],
+            "children": [
+                "@5739415019981852@",
+                "@7360367112366881@"
+            ],
+            "birth_year": 1753,
+            "death_year": 1838
+        },
+        {
+            "id": "@8779452143188695@",
+            "name": "Lydia Pearson",
+            "gender": "F",
+            "parents": [],
+            "children": [
+                "@1840486587930184@"
+            ],
+            "birth_year": 1780,
+            "death_year": 1844
+        },
+        {
+            "id": "@884692629465273@",
+            "name": "Hardy Johnson",
+            "gender": "M",
+            "parents": [
+                "@431431541356254@",
+                "@5507252990377141@",
+                "@1535481158435883@",
+                "@5648853872433923@"
+            ],
+            "children": [
+                "@6617760273465096@"
+            ],
+            "birth_year": 1802,
+            "death_year": 1860
         }
     ]
 }
