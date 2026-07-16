@@ -175,7 +175,7 @@
             "parents": [
                 "@I80@",
                 "@I81@",
-                "@5769414532492444@"
+                "@I80@"
             ],
             "note": "Choctaw lineage. Reportedly signed the rolls.",
             "children": [
@@ -220,7 +220,8 @@
             "birth_year": 1871,
             "note": "Married Salina Annie Palmer in 1899, Atoka Co, OK.",
             "children": [
-                "@I_JOHN_LEE_MARSHALL@"
+                "@I_JOHN_LEE_MARSHALL@",
+                "@I8@"
             ],
             "parents": [
                 "@I_HENRY_MARSHALL_1840@"
@@ -4424,18 +4425,6 @@
             ],
             "birth_year": 1769,
             "death_year": 1859
-        },
-        {
-            "id": "@5769414532492444@",
-            "name": "William Henry Marshall",
-            "gender": "M",
-            "parents": [
-                "@I_HENRY_MARSHALL_1840@"
-            ],
-            "children": [
-                "@I8@"
-            ],
-            "birth_year": 1871
         },
         {
             "id": "@5790043570557374@",
