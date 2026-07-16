@@ -182,7 +182,8 @@
                 "@I_JESSIE_CHARLES_MARSHALL@",
                 "@I_KENNETH_MARSHALL@",
                 "@I_GLORIA_MARSHALL@",
-                "@I_LUCILLE_VIRGINIA_MARSHALL@"
+                "@I_LUCILLE_VIRGINIA_MARSHALL@",
+                "@I_JOHN_LEE_MARSHALL@"
             ]
         },
         {
@@ -3675,6 +3676,15 @@
             "parents": [
                 "@I_LUCILLE_VIRGINIA_MARSHALL@",
                 "@I_MR_ROBERTS@"
+            ]
+        },
+        {
+            "id": "@I_JOHN_LEE_MARSHALL@",
+            "name": "John Lee Marshall",
+            "gender": "M",
+            "birth_year": 1906,
+            "parents": [
+                "@I8@"
             ]
         }
     ]
