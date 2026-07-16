@@ -182,8 +182,7 @@
                 "@I_JESSIE_CHARLES_MARSHALL@",
                 "@I_KENNETH_MARSHALL@",
                 "@I_GLORIA_MARSHALL@",
-                "@I_LUCILLE_VIRGINIA_MARSHALL@",
-                "@I_JOHN_LEE_MARSHALL@"
+                "@I_LUCILLE_VIRGINIA_MARSHALL@"
             ]
         },
         {
@@ -213,7 +212,10 @@
             "name": "William Henry Marshall Sr.",
             "gender": "M",
             "birth_year": 1871,
-            "note": "Married Salina Annie Palmer in 1899, Atoka Co, OK."
+            "note": "Married Salina Annie Palmer in 1899, Atoka Co, OK.",
+            "children": [
+                "@I_JOHN_LEE_MARSHALL@"
+            ]
         },
         {
             "id": "@I81@",
@@ -3684,7 +3686,7 @@
             "gender": "M",
             "birth_year": 1906,
             "parents": [
-                "@I8@"
+                "@I80@"
             ]
         }
     ]
